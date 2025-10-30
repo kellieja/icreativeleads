@@ -1,0 +1,5 @@
+{
+  "name": "IntelliLeads",
+  "description": "A business intelligence platform that provides detailed information on companies and key contacts, powered by Gemini. Search for a company to discover insights.",
+  "requestFramePermissions": []
+}
