@@ -63,6 +63,26 @@ in development.
 
    Or run them separately: `npm run server` and `npm run dev`.
 
+## Using the D&B scraper (on your own machine)
+
+dnb.com blocks cloud/datacenter requests, so the `dnb` provider routes through a
+scraping gateway. Run this on a normal computer (not a locked-down cloud sandbox)
+so the gateway host is reachable.
+
+1. Get a **ScraperAPI** key (free trial) at https://www.scraperapi.com/.
+2. In your `.env`, set the gateway (D&B is a hard target — keep `render` and
+   `premium` on):
+   ```env
+   DNB_SCRAPER_GATEWAY=https://api.scraperapi.com/?api_key=YOUR_KEY&render=true&premium=true&url={url}
+   ```
+3. `npm run dev:all`, open http://localhost:3000, pick **Data Source → D&B
+   Business Directory (scraper)**, choose a country + NAICS, and search.
+
+If results come back empty or blocked, bump `premium=true` to `ultra_premium=true`
+in the gateway URL. The scraper parses what D&B exposes (name, profile URL,
+location, revenue/employee hints, and key principals); licensed providers return
+more complete contact/email data.
+
 ## Usage
 
 1. Choose a **Data Source**, **Country**, and **NAICS Category** (type to filter; you

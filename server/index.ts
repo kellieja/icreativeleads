@@ -1,3 +1,4 @@
+import 'dotenv/config'; // load .env (API keys, gateway config) before anything reads process.env
 import express from 'express';
 import cors from 'cors';
 import { COUNTRIES } from './data/countries';
