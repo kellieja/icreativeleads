@@ -6,7 +6,7 @@ interface ContactCardProps {
   contact: Contact;
 }
 
-const isValidEmail = (email: string): boolean => {
+const isValidEmail = (email: string | undefined): boolean => {
   if (!email) return false;
   // Basic regex for email format validation
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;

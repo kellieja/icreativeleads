@@ -1,36 +1,11 @@
-
-export interface Location {
-  city: string;
-  state: string;
-  country: string;
-}
+// Frontend types — mirror the scraper backend's normalized shapes.
 
 export interface Contact {
   name: string;
   title: string;
-  email: string;
-}
-
-export interface CompanySearchResult {
-  name: string;
-  location: Location;
-  industry: string;
-}
-
-export interface SearchCriteria {
-  keywords: string;
-  industry: string;
-  location: string;
-  employeeCount: string;
-  revenue: string;
-  buyerIntent: string;
-  buyerIntentTopic: string;
-}
-
-export interface BuyerIntent {
-  score: number; // A score from 0 to 100
-  summary: string; // A brief summary of intent signals
-  signals: string[]; // A list of specific, detailed intent signals
+  email?: string;
+  phone?: string;
+  linkedin?: string;
 }
 
 export interface SocialMedia {
@@ -39,12 +14,68 @@ export interface SocialMedia {
   facebook?: string;
 }
 
-export interface CompanyProfile extends CompanySearchResult {
+export interface Company {
+  id: string;
+  name: string;
+  website?: string;
+  industry?: string;
+  naicsCode?: string;
+  naicsLabel?: string;
+  description?: string;
+
+  city?: string;
+  state?: string;
+  country?: string;
+  countryCode?: string;
+  address?: string;
+  phone?: string;
+
+  revenue?: string;
+  employeeCount?: string;
+  foundedYear?: string;
+  duns?: string;
+  ticker?: string;
+
+  contacts?: Contact[];
+  socialMedia?: SocialMedia;
+
+  source: string;
+  sourceUrl?: string;
+}
+
+export interface SearchParams {
+  provider: string;
+  countryCode?: string;
+  naicsCode?: string;
+  keywords?: string;
+  region?: string;
+  limit?: number;
+}
+
+export interface ProviderMeta {
+  key: string;
+  label: string;
   description: string;
-  website: string;
-  revenue: string;
-  employeeCount: string;
-  contacts: Contact[];
-  buyerIntent: BuyerIntent;
-  socialMedia: SocialMedia;
+  configured: boolean;
+  configHint?: string;
+}
+
+export interface NaicsCode {
+  code: string;
+  title: string;
+  sector?: string;
+}
+
+export interface Meta {
+  countries: { code: string; name: string }[];
+  naicsSectors: { code: string; title: string }[];
+  naicsCommon: NaicsCode[];
+  providers: ProviderMeta[];
+}
+
+export interface SearchResponse {
+  provider: string;
+  companies: Company[];
+  total?: number;
+  warnings?: string[];
 }

@@ -8,6 +8,13 @@ export default defineConfig(({ mode }) => {
       server: {
         port: 3000,
         host: '0.0.0.0',
+        proxy: {
+          // Forward API calls to the scraper backend (npm run server).
+          '/api': {
+            target: `http://localhost:${env.SCRAPER_PORT || 4000}`,
+            changeOrigin: true,
+          },
+        },
       },
       plugins: [react()],
       define: {
