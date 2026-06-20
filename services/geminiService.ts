@@ -98,6 +98,39 @@ const companyUrlListSchema = {
   },
 };
 
+// Turn a raw API/SDK error into a short, friendly explanation for end users.
+const describeApiError = (error: unknown): string => {
+  const text = (error instanceof Error ? error.message : String(error)).toLowerCase();
+  if (
+    text.includes('credit') ||
+    text.includes('billing') ||
+    text.includes('prepayment') ||
+    text.includes('depleted')
+  ) {
+    return 'Your Google API account is out of credits, so lookups can’t run. Add billing/credits in Google AI Studio (ai.studio/projects) for your project, then try again.';
+  }
+  if (
+    text.includes('resource_exhausted') ||
+    text.includes('quota') ||
+    text.includes('rate') ||
+    text.includes('429')
+  ) {
+    return 'Google is rate-limiting your account or you’ve hit a usage limit. Try a smaller list, wait a minute, or add billing in Google AI Studio.';
+  }
+  if (
+    text.includes('api key') ||
+    text.includes('api_key') ||
+    text.includes('permission') ||
+    text.includes('unauthenticated') ||
+    text.includes('401') ||
+    text.includes('403') ||
+    text.includes('invalid')
+  ) {
+    return 'There’s a problem with your API key. Double-check the GEMINI_API_KEY in your Vercel project settings.';
+  }
+  return 'Couldn’t reach the Google API. Please check your connection and try again in a moment.';
+};
+
 export const findCompanyUrls = async (
   names: string[],
   onProgress?: (completed: number, total: number) => void,
@@ -168,6 +201,8 @@ ${batch.map((n, i) => `${i + 1}. ${n}`).join('\n')}`;
   const results: CompanyUrlResult[][] = new Array(batches.length);
   let completed = 0;
   let nextIndex = 0;
+  let successfulBatches = 0;
+  let firstError: unknown = null;
 
   const worker = async () => {
     while (true) {
@@ -176,11 +211,13 @@ ${batch.map((n, i) => `${i + 1}. ${n}`).join('\n')}`;
       const batch = batches[current];
 
       let batchResult: CompanyUrlResult[] | null = null;
+      let lastError: unknown = null;
       for (let attempt = 0; attempt < MAX_ATTEMPTS; attempt++) {
         try {
           batchResult = await fetchBatch(batch);
           break;
         } catch (error) {
+          lastError = error;
           console.error(`Error finding URLs for batch ${current} (attempt ${attempt + 1}):`, error);
           if (attempt < MAX_ATTEMPTS - 1) {
             await sleep(1000 * (attempt + 1));
@@ -188,11 +225,15 @@ ${batch.map((n, i) => `${i + 1}. ${n}`).join('\n')}`;
         }
       }
 
-      // If the batch failed every attempt, mark its names as "not found"
-      // rather than failing the whole run.
-      results[current] = batchResult
-        ? normalizeBatch(batch, batchResult)
-        : batch.map(name => ({ name, url: '', found: false }));
+      if (batchResult) {
+        successfulBatches++;
+        results[current] = normalizeBatch(batch, batchResult);
+      } else {
+        // The batch failed every attempt. Mark its names as "not found" so the
+        // rest of the run continues, but remember the error in case nothing works.
+        if (firstError === null) firstError = lastError;
+        results[current] = batch.map(name => ({ name, url: '', found: false }));
+      }
 
       completed += batch.length;
       onProgress?.(Math.min(completed, cleanedNames.length), cleanedNames.length);
@@ -204,6 +245,12 @@ ${batch.map((n, i) => `${i + 1}. ${n}`).join('\n')}`;
     () => worker(),
   );
   await Promise.all(workers);
+
+  // If every batch failed, surface the real reason instead of silently
+  // returning a list of "not found" rows.
+  if (successfulBatches === 0 && firstError !== null) {
+    throw new Error(describeApiError(firstError));
+  }
 
   return results.flat();
 };
