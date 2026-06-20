@@ -6,8 +6,12 @@ import ResultsList from './components/ResultsList';
 import CompanyProfileComponent from './components/CompanyProfile';
 import LoadingSpinner from './components/LoadingSpinner';
 import Icon from './components/Icon';
+import BulkUrlFinder from './components/BulkUrlFinder';
+
+type Tab = 'search' | 'urls';
 
 const App: React.FC = () => {
+  const [activeTab, setActiveTab] = useState<Tab>('search');
   const [searchResults, setSearchResults] = useState<CompanySearchResult[]>([]);
   const [selectedCompany, setSelectedCompany] = useState<CompanyProfile | null>(null);
   const [isLoading, setIsLoading] = useState<boolean>(false);
@@ -101,11 +105,42 @@ const App: React.FC = () => {
         </div>
       </header>
       <main className="container mx-auto max-w-7xl p-4 sm:p-6 md:p-8">
-        <div className="bg-white p-6 rounded-xl shadow-sm mb-8 border border-slate-200">
-            <h2 className="text-2xl font-bold text-slate-800 mb-4">Company Search</h2>
-            <SearchBar onSearch={handleSearch} isLoading={isLoading} />
+        <div className="mb-8 flex gap-2 border-b border-slate-200">
+          <button
+            type="button"
+            onClick={() => setActiveTab('search')}
+            className={`px-4 py-3 text-sm font-semibold border-b-2 -mb-px transition-colors ${
+              activeTab === 'search'
+                ? 'border-primary text-primary'
+                : 'border-transparent text-slate-500 hover:text-slate-700'
+            }`}
+          >
+            Company Search
+          </button>
+          <button
+            type="button"
+            onClick={() => setActiveTab('urls')}
+            className={`px-4 py-3 text-sm font-semibold border-b-2 -mb-px transition-colors ${
+              activeTab === 'urls'
+                ? 'border-primary text-primary'
+                : 'border-transparent text-slate-500 hover:text-slate-700'
+            }`}
+          >
+            Bulk URL Finder
+          </button>
         </div>
-        {renderContent()}
+
+        {activeTab === 'search' ? (
+          <>
+            <div className="bg-white p-6 rounded-xl shadow-sm mb-8 border border-slate-200">
+                <h2 className="text-2xl font-bold text-slate-800 mb-4">Company Search</h2>
+                <SearchBar onSearch={handleSearch} isLoading={isLoading} />
+            </div>
+            {renderContent()}
+          </>
+        ) : (
+          <BulkUrlFinder />
+        )}
       </main>
     </div>
   );

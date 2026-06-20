@@ -1,7 +1,7 @@
 
 
 import { GoogleGenAI, Type } from '@google/genai';
-import { CompanySearchResult, CompanyProfile, SearchCriteria } from '../types';
+import { CompanySearchResult, CompanyProfile, SearchCriteria, CompanyUrlResult } from '../types';
 
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY as string });
 
@@ -84,6 +84,57 @@ const companyProfileSchema = {
     required: ['name', 'industry', 'location', 'description', 'website', 'revenue', 'employeeCount', 'contacts', 'buyerIntent', 'socialMedia'],
 };
 
+
+const companyUrlListSchema = {
+  type: Type.ARRAY,
+  items: {
+    type: Type.OBJECT,
+    properties: {
+      name: { type: Type.STRING, description: 'The company name exactly as it was provided in the input list.' },
+      url: { type: Type.STRING, description: "The company's official website URL, including the 'https://' scheme (e.g., 'https://www.acme.com'). Use an empty string if the official website cannot be confidently determined." },
+      found: { type: Type.BOOLEAN, description: 'True if a confident match for the official website was found, false otherwise.' },
+    },
+    required: ['name', 'url', 'found'],
+  },
+};
+
+export const findCompanyUrls = async (names: string[]): Promise<CompanyUrlResult[]> => {
+  try {
+    const cleanedNames = names.map(n => n.trim()).filter(Boolean);
+
+    if (cleanedNames.length === 0) {
+      return [];
+    }
+
+    const prompt = `You are a B2B data enrichment assistant. For each company name in the list below, find its official website homepage URL.
+
+Rules:
+- Return the canonical, official homepage URL for each company, including the "https://" scheme.
+- Keep the "name" field exactly as provided in the input so results can be matched back.
+- Preserve the original order of the input list and return one entry per input name.
+- If you cannot confidently identify the official website, return an empty string for the url and set "found" to false. Do not guess or invent a URL.
+- Do not return social media profiles, directory listings, or news articles — only the company's own website.
+
+Company names:
+${cleanedNames.map((n, i) => `${i + 1}. ${n}`).join('\n')}`;
+
+    const response = await ai.models.generateContent({
+      model: 'gemini-2.5-flash',
+      contents: prompt,
+      config: {
+        responseMimeType: 'application/json',
+        responseSchema: companyUrlListSchema,
+      },
+    });
+
+    const jsonString = response.text.trim();
+    const data = JSON.parse(jsonString);
+    return data as CompanyUrlResult[];
+  } catch (error) {
+    console.error("Error finding company URLs:", error);
+    throw new Error("Failed to fetch company URLs from Gemini API.");
+  }
+};
 
 export const searchCompanies = async (criteria: SearchCriteria, isThinkingMode: boolean): Promise<CompanySearchResult[]> => {
   try {
