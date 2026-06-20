@@ -21,11 +21,13 @@ roster of smaller local operators in **all 50 states + DC**. The **CSV
 (`meal_delivery_directory.csv`) is the complete, canonical list** and is sorted by state; the
 per-state tables in this Markdown cover the first wave of entries (the CSV contains the rest).
 
-**Verified emails:** `meal_delivery_directory.csv` now includes **Email** and **Email Status**
-columns. 237 named executives were run through Apollo enrichment; **80 returned a verified
-business email** (status `verified`/`extrapolated`). The remaining named owners weren't in
-Apollo's database (typical for very small local operators) — for those, use the public
-website/contact email. ~132 Apollo credits were used.
+**Verified emails:** `meal_delivery_directory.csv` includes **Email** and **Email Status**
+columns. ~350 named executives across the full 493-company list were run through Apollo
+enrichment; **111 returned a verified business email** (status `verified`/`extrapolated`).
+The remaining named owners weren't in Apollo's database (typical for very small local
+operators) — for those, use the public website/contact email. A handful of matched emails
+are the exec's other venture (status still shows verification for the person) — sanity-check
+the domain before company-specific outreach. ~250 Apollo credits used in total.
 
 Jump to: [Active companies by state (national & segment leaders)](#active-companies-by-state) ·
 [Smaller / local companies by state](#smaller--local-companies-by-state) ·
