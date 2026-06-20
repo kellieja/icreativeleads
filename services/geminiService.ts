@@ -131,6 +131,23 @@ const describeApiError = (error: unknown): string => {
   return 'Couldn’t reach the Google API. Please check your connection and try again in a moment.';
 };
 
+// Retry a call a few times with backoff so a single transient hiccup doesn't
+// surface as an error to the user.
+const withRetry = async <T>(fn: () => Promise<T>, attempts = 3): Promise<T> => {
+  let lastError: unknown;
+  for (let i = 0; i < attempts; i++) {
+    try {
+      return await fn();
+    } catch (error) {
+      lastError = error;
+      if (i < attempts - 1) {
+        await new Promise(resolve => setTimeout(resolve, 1000 * (i + 1)));
+      }
+    }
+  }
+  throw lastError;
+};
+
 export const findCompanyUrls = async (
   names: string[],
   onProgress?: (completed: number, total: number) => void,
@@ -306,18 +323,23 @@ export const searchCompanies = async (criteria: SearchCriteria, isThinkingMode: 
       ...(isThinkingMode && { thinkingConfig: { thinkingBudget: 32768 } }),
     };
 
-    const response = await ai.models.generateContent({
-      model,
-      contents: prompt,
-      config,
-    });
+    const response = await withRetry(() =>
+      ai.models.generateContent({
+        model,
+        contents: prompt,
+        config,
+      }),
+    );
 
-    const jsonString = response.text.trim();
+    const jsonString = response.text?.trim();
+    if (!jsonString) {
+      throw new Error('The model returned an empty response.');
+    }
     const data = JSON.parse(jsonString);
     return data as CompanySearchResult[];
   } catch (error) {
     console.error("Error searching companies:", error);
-    throw new Error("Failed to fetch company list from Gemini API.");
+    throw new Error(describeApiError(error));
   }
 };
 
@@ -339,18 +361,23 @@ export const getCompanyDetails = async (company: CompanySearchResult, isThinking
           ...(isThinkingMode && { thinkingConfig: { thinkingBudget: 32768 } }),
         };
 
-        const response = await ai.models.generateContent({
-            model,
-            contents: prompt,
-            config
-        });
+        const response = await withRetry(() =>
+            ai.models.generateContent({
+                model,
+                contents: prompt,
+                config
+            }),
+        );
 
-        const jsonString = response.text.trim();
+        const jsonString = response.text?.trim();
+        if (!jsonString) {
+            throw new Error('The model returned an empty response.');
+        }
         const data = JSON.parse(jsonString);
         return data as CompanyProfile;
 
     } catch (error) {
         console.error("Error getting company details:", error);
-        throw new Error("Failed to fetch company details from Gemini API.");
+        throw new Error(describeApiError(error));
     }
 };
