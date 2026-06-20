@@ -27,7 +27,10 @@ columns, and **484 of the 670 companies now have an email**. Two sources, flagge
 - **`verified` / `extrapolated`** (118): matched through Apollo enrichment (~280 credits).
   A handful are the exec's other/current venture rather than the meal company — sanity-check
   the domain before company-specific outreach.
-- **`website`** (366): the company's own published contact address (info@, hello@, orders@,
+- **`website-confirmed`** (7): a website-sourced email where Apollo separately confirmed the
+  named owner/contact is current at that company (identity corroborated; the address itself
+  is the published website inbox, not independently deliverability-tested).
+- **`website`** (359): the company's own published contact address (info@, hello@, orders@,
   or owner's inbox), collected from the public website/listings. These are real published
   addresses but were **not** independently deliverability-verified, and some are free-provider
   (gmail/yahoo) inboxes — treat as good-faith leads, not validated contacts. A few sit on a

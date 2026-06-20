@@ -5,7 +5,7 @@ AK,Phenom Meals,Anchorage,Unverified,,phenommeals.com,Med,Active,Local; weekly s
 AL,China's Creations,Huntsville,China Leary,Owner,chinascreationsprep.com,High,Active,Local; Huntsville/Madison,,
 AL,Fit Five Meals,Birmingham,Brock Warren and Alex Shunnarah,Co-Founders,fitfivemeals.com,High,Active,Founded 2017 ~8k meals/mo statewide pickup incl Tuscaloosa,customerservice@fitfivemeals.com,website
 AL,High Bar Nutrition,Irondale,Kat Sweatt,Founder,highbarnutrition.fit,High,Active,Local; Birmingham metro,,
-AL,Katie's Plates,Birmingham,Katie Strickland,Founder,katiesplates.com,High,Active,Local; paleo/GF; also Nashville,katie@katiesplates.com,website
+AL,Katie's Plates,Birmingham,Katie Strickland,Founder,katiesplates.com,High,Active,Local; paleo/GF; also Nashville,katie@katiesplates.com,website-confirmed
 AL,MealFit,Birmingham,Unverified,,mealfit.co,Med,Active,Local; delivery + catering,info@mealfit.co,website
 AL,Montgomery Super Suppers,Montgomery,Unverified,Owner,facebook.com/SuperSuppersMontgomery,Low,Active,8+ yrs grab-and-go freezers + online order,,
 AL,Nourish Meals,Irondale,Mary Drennen & Tiffany Vickers Davis,Co-Founders,nourishmeals.com,High,Active,Local; founded 2014,mary@nourishmeals.com,verified
@@ -357,7 +357,7 @@ MS,Stud Muffins,Southaven,Molly Beth & Trey Jolly,Co-Owners,studmuffinsonline.co
 MT,Montana Meal Prep,Billings,Kalen & Annie (surnames unverified),Co-owners,montanamealprep.com,High,Active,Local; launched 2024,info@montanamealprep.com,website
 MT,Orders Up Delivery,Bozeman,Danielle Miller,Owner/Chef,ordersupdelivery.com,High,Active,Local; Gallatin Valley,info@ordersupdelivery.com,website
 MT,True Food Missoula,Missoula,Unverified,Owner,truefoodcsa.com,Med,Active,Local,truefoodmissoula@gmail.com,website
-MT,Whole and Nourished,Bozeman,Heather Babineau-Z,Owner/Founder,wholeandnourished.com,High,Active,Local; founded 2017,heather@wholeandnourished.com,website
+MT,Whole and Nourished,Bozeman,Heather Babineau-Z,Owner/Founder,wholeandnourished.com,High,Active,Local; founded 2017,heather@wholeandnourished.com,website-confirmed
 NC,Asheville Pro Kitchen,Asheville,Dustin Orofino,Founder,ashevilleprokitchen.com,Med,Active,Subscription delivery launched Jan 2017,ashevilleprokitchen@gmail.com,website
 NC,Carolina Gourmet,Charlotte,Peter Olsacher,Chef/Owner,carolinagourmet.com,Med,Active,Local; chef-curated prepared meals,olsacher@carolinagourmet.com,verified
 NC,Clean Eatz,Wilmington,Eric Wyatt,CEO,cleaneatz.com,High,Active,Franchise 112+ locations; founders Don & Evonne Varady,eric.wyatt@thejoint.com,verified
@@ -399,7 +399,7 @@ NJ,Graze and Braise,Jersey City,Ayaz Adiguzelli,Founder,grazeandbraise.com,High,
 NJ,MacroBites,Asbury Park,Jarrette Atkins,Co-Founder/CEO,macrobites.com,High,Active,Local; founded 2019; Black-owned RTE,,
 NJ,Made Meals,Kearny,Jesse McBride,Founder,mademeals.co,High,Active,Local; founded 2019,jesse@mademeals.co,verified
 NJ,NJ Gourmet Meal Prep,Fair Lawn,Mychal Rivera,Owner/Founder,mynjgourmet.com,High,Active,Local; ~14 counties,info@mynjgourmet.com,website
-NJ,Nourish to Heal,Clinton,Nicole & Anthony Piazza,Owners,nourishtoheal.com,High,Active,Local; Central NJ,nicole@nourishtoheal.com,website
+NJ,Nourish to Heal,Clinton,Nicole & Anthony Piazza,Owners,nourishtoheal.com,High,Active,Local; Central NJ,nicole@nourishtoheal.com,website-confirmed
 NJ,Nutrition Kitchen,Central NJ,Alison Douglas,Chef/Owner,nutritionkitch.com,Med,Active,Local; CrossFit-athlete founder,info@nutritionkitch.com,website
 NJ,Prevail Nutrition,Absecon,Unverified,Owner,prevailnutrition.club,Med,Active,Local; South Jersey,prevailperformance@gmail.com,website
 NJ,Shore Fresh Meal Prep,Toms River,Dan Carroll,Owner/Chef,shorefreshmealprep.org,High,Active,Est 2018 serves Ocean/Monmouth free Wed/Sat delivery,shorefreshmealprep@gmail.com,website
@@ -497,7 +497,7 @@ OR,Erin's Table,Eugene,Unverified,Founder/Owner,erins-table.com,Med,Active,Local
 OR,Farm to Fit,Portland,G Scott Brown and Dre Slaman,Co-Founders,farmtofit.com,High,Active,Founded 2011 fresh-not-frozen ready-to-eat,info@farmtofit.com,website
 OR,FitFabMeals,Salem,Unverified,Owner,fitfabmeals.com,Med,Active,Local Salem keto/vegan/Whole30 customizable,,
 OR,Full Belly Fare,Portland,Lyla Wolfenstein,Chef-Owner,fullbellyfare.com,High,Active,Local; GF/celiac-safe,lyla@assistancedogsofthewest.org,verified
-OR,Ivy's Cookin',Eugene,Ivy Cotler,Founder/Owner,ivyscookin.com,High,Active,Local; vegetarian since 1992,ivy@efn.org,website
+OR,Ivy's Cookin',Eugene,Ivy Cotler,Founder/Owner,ivyscookin.com,High,Active,Local; vegetarian since 1992,ivy@efn.org,website-confirmed
 OR,Kitchen Heartbeets,Bend,Stephanie Rooker,Founder/Owner,kitchenheartbeets.com,High,Active,GF/DF/soy-free weekly Wed delivery Central OR,,
 OR,LiveGreens PDX,Portland,Unverified,Owner,livegreenspdx.com,Low,Active,Local; weekly meal prep,info@livegreenspdx.com,website
 OR,Nourish Meal Prep,Bend,Unverified,Owner,nourishmealprepbend.com,Med,Active,Since 2014 organic GF kitchen,,
@@ -581,7 +581,7 @@ TX,Meals by Megan May,Abilene,Megan May,Owner & Founder,meganmay.fit,High,Active
 TX,Muscle Junkies Meal Prep,Dallas,Unverified,,musclejunkiesmealprep.com,Med,Active,Local; family-owned DFW,musclejunkiesmealprep@gmail.com,website
 TX,My Fit Foods,Houston,Mario Mendias,Founder / Owner,myfitfoods.com,Med,Active,Relaunched 2019,,unavailable
 TX,MyPrepKitchen DFW,Dallas,Unverified,Owner,myprepkitchendfw.com,Med,Active,Local; macro meals across DFW,,
-TX,NOURISH Cooking Co,Houston,Janna Varughese,Founder/Chef,nourishcookingco.com,High,Active,Plant-based/vegan anti-inflammatory Indian/Thai/Mexican,Janna@nourishcookingco.com,website
+TX,NOURISH Cooking Co,Houston,Janna Varughese,Founder/Chef,nourishcookingco.com,High,Active,Plant-based/vegan anti-inflammatory Indian/Thai/Mexican,Janna@nourishcookingco.com,website-confirmed
 TX,Nosh Simple,Houston,Aaron Du,Founder,noshsimple.com,High,Active,Launched 2023 $7 meals 17+ cuisines no subscription,hi@noshsimple.com,website
 TX,Personal Trainer Food,Fort Worth,Mike Starks,Founder & CEO,personaltrainerfood.com,High,Active,Weight-loss frozen meals; founded 2011,mike@starks.group,verified
 TX,Pharaoh Fit Meals,Odessa,Unverified,Owner,pharaohfitmeals.com,Med,Active,Macro-counted serves Midland/Odessa,,
@@ -630,7 +630,7 @@ VA,Swol Food,Virginia Beach,Paolo Vergara,Founder/Owner,facebook.com/Swolfood,Me
 VA,Territory Foods,Arlington,Ellis Singer McCue,CEO,territoryfoods.com,High,Active,Chef-made dietitian-designed; CEO since 2019,hello@territoryfoods.com,website
 VA,The Healthy Bowl,Roanoke,Unverified,Owner,facebook.com/thehealthybowl,Low,Active,Roanoke-area meal prep service,,
 VA,Wholey Meal Prep,Arlington,Unverified,Owner,wholeymealprep.com,Med,Active,Local; minority woman-owned,wholeymealprep@gmail.com,website
-VT,Emily's Home Cooking,Winooski,Emily Eden,Owner/Chef,emilyshomecooking.com,High,Active,Local; since 2013,emily@emilyshomecooking.com,website
+VT,Emily's Home Cooking,Winooski,Emily Eden,Owner/Chef,emilyshomecooking.com,High,Active,Local; since 2013,emily@emilyshomecooking.com,website-confirmed
 VT,Fiddleheads Cuisine,Moretown,Lisa Mason,Owner/Chef,fiddleheadscuisine.com,High,Active,Local; est 2010,lisa@fiddleheadscuisine.com,website
 VT,Richmond Community Kitchen,Richmond,Amy Gifford & Susan Whitman,Co-Founders,richmondcommunitykitchen.com,High,Active,Local; Chittenden County,amy@richmondcommunitykitchen.com,verified
 VT,Veggies & Hustle,Burlington,Hannah Baird,Owner/Chef,veggiesandhustle.com,High,Active,Local; since 2020,,unavailable
@@ -667,5 +667,5 @@ WV,Hungry Horns Meal Prep,Teays Valley,John & Rachel Horn,Owners,hungryhorns.com
 WV,Project LeanNation Morgantown,Morgantown,Alissa & Matt Higgins,Franchise Owners,projectleannation.com,Med,Active,Local; franchise,info@projectleannation.com,website
 WY,Avant Delivery,Jackson,Sam Schwartz,Founder/CEO,avantdelivery.co,Med,Active,Local; HQ ambiguous (also SLC),support@avantdelivery.co,website
 WY,Heritage Foods,Laramie,John Pope,Founder,myheritagefoods.com,High,Active,Local; Laramie/Cheyenne + N. CO,help@myheritagefoods.com,website
-WY,Kitchen Social,Casper,Karla Case,Owner/Founder,casperkitchensocial.com,High,Active,Local; founded 2019,karla@casperkitchensocial.com,website
+WY,Kitchen Social,Casper,Karla Case,Owner/Founder,casperkitchensocial.com,High,Active,Local; founded 2019,karla@casperkitchensocial.com,website-confirmed
 WY,Unprocessed Kitchen,Jackson,Alicia Brieger,Owner/Chef,unprocessedkitchen.com,Med,Active,Local; also Maui,info@unprocessedkitchen.com,website
