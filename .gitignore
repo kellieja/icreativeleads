@@ -27,3 +27,4 @@ dist-ssr
 .apollo_in*
 .apollo_out*
 .additions.csv
+.sweep2_*.txt
