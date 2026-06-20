@@ -24,3 +24,5 @@ dist-ssr
 *.sw?
 .apollo_in_*.txt
 .apollo_out_*.csv
+.apollo_in*
+.apollo_out*
