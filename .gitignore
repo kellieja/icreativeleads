@@ -22,3 +22,13 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+.apollo_in_*.txt
+.apollo_out_*.csv
+.apollo_in*
+.apollo_out*
+.additions.csv
+.sweep2_*.txt
+.apollo_b3_*
+.additions2.csv
+.scrape_out.csv
+.scrape_*.csv
