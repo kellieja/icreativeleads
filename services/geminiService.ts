@@ -98,25 +98,42 @@ const companyUrlListSchema = {
   },
 };
 
-export const findCompanyUrls = async (names: string[]): Promise<CompanyUrlResult[]> => {
-  try {
-    const cleanedNames = names.map(n => n.trim()).filter(Boolean);
+export const findCompanyUrls = async (
+  names: string[],
+  onProgress?: (completed: number, total: number) => void,
+): Promise<CompanyUrlResult[]> => {
+  const cleanedNames = names.map(n => n.trim()).filter(Boolean);
 
-    if (cleanedNames.length === 0) {
-      return [];
-    }
+  if (cleanedNames.length === 0) {
+    return [];
+  }
 
+  // Large lists can't be sent in a single request (response token limits and
+  // timeouts), so we split the work into small batches and run a few in
+  // parallel, reporting progress as each batch completes.
+  const BATCH_SIZE = 40;
+  const CONCURRENCY = 5;
+  const MAX_ATTEMPTS = 3;
+
+  const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
+
+  const batches: string[][] = [];
+  for (let i = 0; i < cleanedNames.length; i += BATCH_SIZE) {
+    batches.push(cleanedNames.slice(i, i + BATCH_SIZE));
+  }
+
+  const fetchBatch = async (batch: string[]): Promise<CompanyUrlResult[]> => {
     const prompt = `You are a B2B data enrichment assistant. For each company name in the list below, find its official website homepage URL.
 
 Rules:
 - Return the canonical, official homepage URL for each company, including the "https://" scheme.
 - Keep the "name" field exactly as provided in the input so results can be matched back.
-- Preserve the original order of the input list and return one entry per input name.
+- Return one entry per input name.
 - If you cannot confidently identify the official website, return an empty string for the url and set "found" to false. Do not guess or invent a URL.
 - Do not return social media profiles, directory listings, or news articles — only the company's own website.
 
 Company names:
-${cleanedNames.map((n, i) => `${i + 1}. ${n}`).join('\n')}`;
+${batch.map((n, i) => `${i + 1}. ${n}`).join('\n')}`;
 
     const response = await ai.models.generateContent({
       model: 'gemini-2.5-flash',
@@ -124,16 +141,71 @@ ${cleanedNames.map((n, i) => `${i + 1}. ${n}`).join('\n')}`;
       config: {
         responseMimeType: 'application/json',
         responseSchema: companyUrlListSchema,
+        maxOutputTokens: 8192,
       },
     });
 
     const jsonString = response.text.trim();
-    const data = JSON.parse(jsonString);
-    return data as CompanyUrlResult[];
-  } catch (error) {
-    console.error("Error finding company URLs:", error);
-    throw new Error("Failed to fetch company URLs from Gemini API.");
-  }
+    return JSON.parse(jsonString) as CompanyUrlResult[];
+  };
+
+  // Align a batch's results back to its input names (by name, case-insensitive),
+  // filling in any names the model dropped so every input gets exactly one row.
+  const normalizeBatch = (batch: string[], result: CompanyUrlResult[]): CompanyUrlResult[] => {
+    const byName = new Map<string, CompanyUrlResult>();
+    for (const r of result || []) {
+      if (r && typeof r.name === 'string') {
+        byName.set(r.name.trim().toLowerCase(), r);
+      }
+    }
+    return batch.map(name => {
+      const match = byName.get(name.trim().toLowerCase());
+      const ok = !!(match && match.found && match.url);
+      return { name, url: ok ? match!.url : '', found: ok };
+    });
+  };
+
+  const results: CompanyUrlResult[][] = new Array(batches.length);
+  let completed = 0;
+  let nextIndex = 0;
+
+  const worker = async () => {
+    while (true) {
+      const current = nextIndex++;
+      if (current >= batches.length) break;
+      const batch = batches[current];
+
+      let batchResult: CompanyUrlResult[] | null = null;
+      for (let attempt = 0; attempt < MAX_ATTEMPTS; attempt++) {
+        try {
+          batchResult = await fetchBatch(batch);
+          break;
+        } catch (error) {
+          console.error(`Error finding URLs for batch ${current} (attempt ${attempt + 1}):`, error);
+          if (attempt < MAX_ATTEMPTS - 1) {
+            await sleep(1000 * (attempt + 1));
+          }
+        }
+      }
+
+      // If the batch failed every attempt, mark its names as "not found"
+      // rather than failing the whole run.
+      results[current] = batchResult
+        ? normalizeBatch(batch, batchResult)
+        : batch.map(name => ({ name, url: '', found: false }));
+
+      completed += batch.length;
+      onProgress?.(Math.min(completed, cleanedNames.length), cleanedNames.length);
+    }
+  };
+
+  const workers = Array.from(
+    { length: Math.min(CONCURRENCY, batches.length) },
+    () => worker(),
+  );
+  await Promise.all(workers);
+
+  return results.flat();
 };
 
 export const searchCompanies = async (criteria: SearchCriteria, isThinkingMode: boolean): Promise<CompanySearchResult[]> => {

@@ -11,6 +11,7 @@ const BulkUrlFinder: React.FC = () => {
   const [error, setError] = useState<string | null>(null);
   const [hasRun, setHasRun] = useState(false);
   const [copied, setCopied] = useState(false);
+  const [progress, setProgress] = useState<{ done: number; total: number } | null>(null);
 
   const names = input
     .split('\n')
@@ -23,14 +24,19 @@ const BulkUrlFinder: React.FC = () => {
     setError(null);
     setHasRun(true);
     setCopied(false);
+    setResults([]);
+    setProgress({ done: 0, total: names.length });
     try {
-      const data = await findCompanyUrls(names);
+      const data = await findCompanyUrls(names, (done, total) =>
+        setProgress({ done, total }),
+      );
       setResults(data);
     } catch (err) {
       setError('An error occurred while finding URLs. Please try again.');
       setResults([]);
     } finally {
       setIsLoading(false);
+      setProgress(null);
     }
   };
 
@@ -40,6 +46,7 @@ const BulkUrlFinder: React.FC = () => {
     setHasRun(false);
     setError(null);
     setCopied(false);
+    setProgress(null);
   };
 
   const handleCopy = () => {
@@ -112,6 +119,24 @@ const BulkUrlFinder: React.FC = () => {
       {isLoading && (
         <div className="mt-8 text-center">
           <LoadingSpinner />
+          {progress && (
+            <div className="mt-6 max-w-md mx-auto">
+              <p className="text-sm font-medium text-slate-600 mb-2">
+                Looking up websites… {progress.done} of {progress.total}
+              </p>
+              <div className="w-full bg-slate-200 rounded-full h-2.5 overflow-hidden">
+                <div
+                  className="bg-primary h-2.5 rounded-full transition-all duration-300"
+                  style={{
+                    width: `${progress.total ? Math.round((progress.done / progress.total) * 100) : 0}%`,
+                  }}
+                />
+              </div>
+              <p className="mt-2 text-xs text-slate-400">
+                Large lists are processed in batches — you can leave this tab open.
+              </p>
+            </div>
+          )}
         </div>
       )}
 
