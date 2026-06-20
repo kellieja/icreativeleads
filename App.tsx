@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { searchCompanies, getCompanyDetails } from './services/geminiService';
+import { searchCompanies, getCompanyDetails, fetchContactsForCompanies } from './services/geminiService';
 import { CompanySearchResult, CompanyProfile, SearchCriteria } from './types';
 import SearchBar from './components/SearchBar';
 import ResultsList from './components/ResultsList';
@@ -16,6 +16,8 @@ const App: React.FC = () => {
   const [selectedCompany, setSelectedCompany] = useState<CompanyProfile | null>(null);
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [isLoadingMore, setIsLoadingMore] = useState<boolean>(false);
+  const [isExporting, setIsExporting] = useState<boolean>(false);
+  const [exportProgress, setExportProgress] = useState<{ done: number; total: number } | null>(null);
   const [isThinking, setIsThinking] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
   const [hasSearched, setHasSearched] = useState(false);
@@ -88,22 +90,57 @@ const App: React.FC = () => {
     }
   };
 
-  const handleExportSearchCsv = () => {
-    const escapeCsv = (value: string) => `"${(value ?? '').replace(/"/g, '""')}"`;
-    const header = 'Company Name,Industry,City,State,Country\n';
-    const rows = searchResults
-      .map(c =>
-        [c.name, c.industry, c.location.city, c.location.state, c.location.country]
-          .map(escapeCsv)
-          .join(','),
-      )
-      .join('\n');
-    const blob = new Blob([header + rows], { type: 'text/csv;charset=utf-8;' });
-    const link = document.createElement('a');
-    link.href = URL.createObjectURL(blob);
-    link.download = 'company-search-results.csv';
-    link.click();
-    URL.revokeObjectURL(link.href);
+  const handleExportSearchCsv = async () => {
+    if (searchResults.length === 0) return;
+    setIsExporting(true);
+    setExportProgress({ done: 0, total: searchResults.length });
+    setError(null);
+    try {
+      // Enrich every company with its full profile so the CSV includes
+      // contacts, emails, and website — not just the basic list fields.
+      const profiles = await fetchContactsForCompanies(
+        searchResults,
+        wasLastSearchInThinkingMode,
+        lastSearchCriteria?.buyerIntentTopic,
+        (done, total) => setExportProgress({ done, total }),
+      );
+
+      const escapeCsv = (value: string) => `"${(value ?? '').replace(/"/g, '""')}"`;
+      const header =
+        'Company Name,Industry,City,State,Country,Website,Revenue,Employees,Contact Name,Title,Email\n';
+      const lines: string[] = [];
+      for (const c of profiles) {
+        const base = [
+          c.name,
+          c.industry,
+          c.location.city,
+          c.location.state,
+          c.location.country,
+          c.website,
+          c.revenue,
+          c.employeeCount,
+        ];
+        if (c.contacts && c.contacts.length > 0) {
+          for (const contact of c.contacts) {
+            lines.push([...base, contact.name, contact.title, contact.email].map(escapeCsv).join(','));
+          }
+        } else {
+          lines.push([...base, '', '', ''].map(escapeCsv).join(','));
+        }
+      }
+
+      const blob = new Blob([header + lines.join('\n')], { type: 'text/csv;charset=utf-8;' });
+      const link = document.createElement('a');
+      link.href = URL.createObjectURL(blob);
+      link.download = 'company-search-leads.csv';
+      link.click();
+      URL.revokeObjectURL(link.href);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'An error occurred while preparing the export.');
+    } finally {
+      setIsExporting(false);
+      setExportProgress(null);
+    }
   };
   
   const renderContent = () => {
@@ -129,6 +166,8 @@ const App: React.FC = () => {
           onExportCsv={handleExportSearchCsv}
           onGetMore={handleGetMoreLeads}
           isLoadingMore={isLoadingMore}
+          isExporting={isExporting}
+          exportProgress={exportProgress}
         />
       );
     }

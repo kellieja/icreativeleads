@@ -381,3 +381,54 @@ export const getCompanyDetails = async (company: CompanySearchResult, isThinking
         throw new Error(describeApiError(error));
     }
 };
+
+// Fetch full profiles (incl. contacts/emails) for a list of companies, a few at
+// a time, reporting progress. Used to build an enriched CSV export. A company
+// whose profile can't be fetched is returned with empty contacts rather than
+// failing the whole export.
+export const fetchContactsForCompanies = async (
+    companies: CompanySearchResult[],
+    isThinkingMode: boolean,
+    buyerIntentTopic?: string,
+    onProgress?: (completed: number, total: number) => void,
+): Promise<CompanyProfile[]> => {
+    if (companies.length === 0) {
+        return [];
+    }
+
+    const CONCURRENCY = 4;
+    const results: CompanyProfile[] = new Array(companies.length);
+    let completed = 0;
+    let nextIndex = 0;
+
+    const worker = async () => {
+        while (true) {
+            const current = nextIndex++;
+            if (current >= companies.length) break;
+            const company = companies[current];
+            try {
+                results[current] = await getCompanyDetails(company, isThinkingMode, buyerIntentTopic);
+            } catch (error) {
+                console.error(`Could not enrich "${company.name}":`, error);
+                results[current] = {
+                    ...company,
+                    description: '',
+                    website: '',
+                    revenue: '',
+                    employeeCount: '',
+                    contacts: [],
+                    buyerIntent: { score: 0, summary: '', signals: [] },
+                    socialMedia: {},
+                };
+            }
+            completed++;
+            onProgress?.(completed, companies.length);
+        }
+    };
+
+    await Promise.all(
+        Array.from({ length: Math.min(CONCURRENCY, companies.length) }, () => worker()),
+    );
+
+    return results;
+};

@@ -8,9 +8,11 @@ interface ResultsListProps {
   onExportCsv: () => void;
   onGetMore: () => void;
   isLoadingMore: boolean;
+  isExporting: boolean;
+  exportProgress: { done: number; total: number } | null;
 }
 
-const ResultsList: React.FC<ResultsListProps> = ({ results, onSelect, onExportCsv, onGetMore, isLoadingMore }) => {
+const ResultsList: React.FC<ResultsListProps> = ({ results, onSelect, onExportCsv, onGetMore, isLoadingMore, isExporting, exportProgress }) => {
   if (results.length === 0) {
     return <div className="p-4 text-center text-slate-500">No results found.</div>;
   }
@@ -24,10 +26,16 @@ const ResultsList: React.FC<ResultsListProps> = ({ results, onSelect, onExportCs
         <button
           type="button"
           onClick={onExportCsv}
-          className="flex items-center gap-1.5 px-3 py-2 text-sm font-medium text-slate-600 bg-white border border-slate-200 rounded-lg hover:bg-slate-50 transition-colors"
+          disabled={isExporting}
+          title="Downloads every company with its contacts and emails"
+          className="flex items-center gap-1.5 px-3 py-2 text-sm font-medium text-slate-600 bg-white border border-slate-200 rounded-lg hover:bg-slate-50 disabled:opacity-60 disabled:cursor-not-allowed transition-colors"
         >
           <Icon icon="download" className="w-4 h-4" />
-          Export CSV
+          {isExporting
+            ? exportProgress
+              ? `Gathering emails… ${exportProgress.done}/${exportProgress.total}`
+              : 'Gathering emails…'
+            : 'Export CSV (with emails)'}
         </button>
       </div>
 
