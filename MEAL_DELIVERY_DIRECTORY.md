@@ -22,12 +22,18 @@ roster of smaller local operators in **all 50 states + DC**. The **CSV
 per-state tables in this Markdown cover the first wave of entries (the CSV contains the rest).
 
 **Verified emails:** `meal_delivery_directory.csv` includes **Email** and **Email Status**
-columns. ~420 named executives across the full 670-company list were run through Apollo
-enrichment; **118 returned a verified business email** (status `verified`/`extrapolated`).
-The remaining named owners weren't in Apollo's database (typical for very small local
-operators) — for those, use the public website/contact email. A handful of matched emails
-are the exec's other venture (status still shows verification for the person) — sanity-check
-the domain before company-specific outreach. ~280 Apollo credits used in total.
+columns, and **484 of the 670 companies now have an email**. Two sources, flagged in the
+**Email Status** column:
+- **`verified` / `extrapolated`** (118): matched through Apollo enrichment (~280 credits).
+  A handful are the exec's other/current venture rather than the meal company — sanity-check
+  the domain before company-specific outreach.
+- **`website`** (366): the company's own published contact address (info@, hello@, orders@,
+  or owner's inbox), collected from the public website/listings. These are real published
+  addresses but were **not** independently deliverability-verified, and some are free-provider
+  (gmail/yahoo) inboxes — treat as good-faith leads, not validated contacts. A few sit on a
+  sister domain (e.g. Fast Fit Foods → fastfitfoodsco.com); verify before bulk send.
+
+The remaining ~186 companies publish no email (web form / phone / social only).
 
 Jump to: [Active companies by state (national & segment leaders)](#active-companies-by-state) ·
 [Smaller / local companies by state](#smaller--local-companies-by-state) ·
