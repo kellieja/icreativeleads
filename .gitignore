@@ -26,3 +26,4 @@ dist-ssr
 .apollo_out_*.csv
 .apollo_in*
 .apollo_out*
+.additions.csv
