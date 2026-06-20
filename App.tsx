@@ -15,6 +15,7 @@ const App: React.FC = () => {
   const [searchResults, setSearchResults] = useState<CompanySearchResult[]>([]);
   const [selectedCompany, setSelectedCompany] = useState<CompanyProfile | null>(null);
   const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [isLoadingMore, setIsLoadingMore] = useState<boolean>(false);
   const [isThinking, setIsThinking] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
   const [hasSearched, setHasSearched] = useState(false);
@@ -67,6 +68,43 @@ const App: React.FC = () => {
   const handleBackToResults = () => {
     setSelectedCompany(null);
   };
+
+  const handleGetMoreLeads = async () => {
+    if (!lastSearchCriteria) return;
+    setIsLoadingMore(true);
+    setError(null);
+    try {
+      const existingNames = searchResults.map(r => r.name);
+      const more = await searchCompanies(lastSearchCriteria, wasLastSearchInThinkingMode, existingNames);
+      setSearchResults(prev => {
+        const seen = new Set(prev.map(p => p.name.trim().toLowerCase()));
+        const newOnes = more.filter(m => !seen.has(m.name.trim().toLowerCase()));
+        return [...prev, ...newOnes];
+      });
+    } catch (err) {
+      setError('An error occurred while fetching more leads. Please try again.');
+    } finally {
+      setIsLoadingMore(false);
+    }
+  };
+
+  const handleExportSearchCsv = () => {
+    const escapeCsv = (value: string) => `"${(value ?? '').replace(/"/g, '""')}"`;
+    const header = 'Company Name,Industry,City,State,Country\n';
+    const rows = searchResults
+      .map(c =>
+        [c.name, c.industry, c.location.city, c.location.state, c.location.country]
+          .map(escapeCsv)
+          .join(','),
+      )
+      .join('\n');
+    const blob = new Blob([header + rows], { type: 'text/csv;charset=utf-8;' });
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = 'company-search-results.csv';
+    link.click();
+    URL.revokeObjectURL(link.href);
+  };
   
   const renderContent = () => {
     if (isLoading) {
@@ -84,7 +122,15 @@ const App: React.FC = () => {
       return <CompanyProfileComponent company={selectedCompany} onBack={handleBackToResults} />;
     }
     if (hasSearched) {
-      return <ResultsList results={searchResults} onSelect={handleSelectCompany} />;
+      return (
+        <ResultsList
+          results={searchResults}
+          onSelect={handleSelectCompany}
+          onExportCsv={handleExportSearchCsv}
+          onGetMore={handleGetMoreLeads}
+          isLoadingMore={isLoadingMore}
+        />
+      );
     }
     return (
         <div className="text-center py-16 px-4 bg-white rounded-xl border border-slate-200">
