@@ -17,6 +17,12 @@ export interface CompanySearchResult {
   industry: string;
 }
 
+export interface CompanyUrlResult {
+  name: string;
+  url: string;
+  found: boolean;
+}
+
 export interface SearchCriteria {
   keywords: string;
   industry: string;
