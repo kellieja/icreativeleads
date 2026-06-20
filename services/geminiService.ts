@@ -255,7 +255,7 @@ ${batch.map((n, i) => `${i + 1}. ${n}`).join('\n')}`;
   return results.flat();
 };
 
-export const searchCompanies = async (criteria: SearchCriteria, isThinkingMode: boolean): Promise<CompanySearchResult[]> => {
+export const searchCompanies = async (criteria: SearchCriteria, isThinkingMode: boolean, excludeNames: string[] = []): Promise<CompanySearchResult[]> => {
   try {
     let prompt = 'Generate a list of 10 fictional but realistic companies based on the following criteria:';
     
@@ -294,7 +294,11 @@ export const searchCompanies = async (criteria: SearchCriteria, isThinkingMode: 
     }
     
     prompt += '\n\nFor each company, provide its name, primary industry, and location (city, state, country).';
-    
+
+    if (excludeNames.length > 0) {
+      prompt += `\n\nDo NOT include any of these companies, which have already been shown: ${excludeNames.join(', ')}. Generate entirely different companies that still match the criteria.`;
+    }
+
     const model = isThinkingMode ? 'gemini-2.5-pro' : 'gemini-2.5-flash';
     const config = {
       responseMimeType: 'application/json',
