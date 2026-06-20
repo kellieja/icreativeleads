@@ -36,7 +36,7 @@ const App: React.FC = () => {
       const results = await searchCompanies(criteria, isThinkingMode);
       setSearchResults(results);
     } catch (err) {
-      setError('An error occurred while searching. Please try again.');
+      setError(err instanceof Error ? err.message : 'An error occurred while searching. Please try again.');
       setSearchResults([]);
     } finally {
       setIsLoading(false);
@@ -57,7 +57,7 @@ const App: React.FC = () => {
       const profile = await getCompanyDetails(company, isThinkingMode, buyerIntentTopic);
       setSelectedCompany(profile);
     } catch (err) {
-      setError('An error occurred while fetching company details. Please try again.');
+      setError(err instanceof Error ? err.message : 'An error occurred while fetching company details. Please try again.');
       setSelectedCompany(null);
     } finally {
       setIsLoading(false);
@@ -82,7 +82,7 @@ const App: React.FC = () => {
         return [...prev, ...newOnes];
       });
     } catch (err) {
-      setError('An error occurred while fetching more leads. Please try again.');
+      setError(err instanceof Error ? err.message : 'An error occurred while fetching more leads. Please try again.');
     } finally {
       setIsLoadingMore(false);
     }
