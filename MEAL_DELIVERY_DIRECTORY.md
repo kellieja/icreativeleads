@@ -19,6 +19,12 @@ To Go**, and **Magic Kitchen**, which the brief called out).
 **Directory size:** ~265 companies — the national/segment-leading brands **plus** smaller local
 operators in **all 50 states + DC**.
 
+**Verified emails:** `meal_delivery_directory.csv` now includes **Email** and **Email Status**
+columns. 237 named executives were run through Apollo enrichment; **80 returned a verified
+business email** (status `verified`/`extrapolated`). The remaining named owners weren't in
+Apollo's database (typical for very small local operators) — for those, use the public
+website/contact email. ~132 Apollo credits were used.
+
 Jump to: [Active companies by state (national & segment leaders)](#active-companies-by-state) ·
 [Smaller / local companies by state](#smaller--local-companies-by-state) ·
 [Defunct / acquired-and-shut-down](#defunct--acquired-then-shut-down) ·
