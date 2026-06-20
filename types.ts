@@ -33,6 +33,15 @@ export interface SearchCriteria {
   buyerIntentTopic: string;
 }
 
+export interface SearchHistoryEntry {
+  id: string;
+  label: string;
+  criteria: SearchCriteria;
+  thinkingMode: boolean;
+  results: CompanySearchResult[];
+  timestamp: number;
+}
+
 export interface BuyerIntent {
   score: number; // A score from 0 to 100
   summary: string; // A brief summary of intent signals

@@ -1,12 +1,22 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { searchCompanies, getCompanyDetails, fetchContactsForCompanies } from './services/geminiService';
-import { CompanySearchResult, CompanyProfile, SearchCriteria } from './types';
+import { CompanySearchResult, CompanyProfile, SearchCriteria, SearchHistoryEntry } from './types';
 import SearchBar from './components/SearchBar';
 import ResultsList from './components/ResultsList';
 import CompanyProfileComponent from './components/CompanyProfile';
 import LoadingSpinner from './components/LoadingSpinner';
 import Icon from './components/Icon';
 import BulkUrlFinder from './components/BulkUrlFinder';
+import HistoryPanel from './components/HistoryPanel';
+
+const HISTORY_STORAGE_KEY = 'intellileads_search_history';
+const HISTORY_LIMIT = 15;
+
+const buildHistoryLabel = (c: SearchCriteria): string => {
+  const parts = [c.keywords, c.industry].filter(Boolean);
+  const main = parts.length ? parts.join(' · ') : 'All companies';
+  return c.location ? `${main} — ${c.location}` : main;
+};
 
 type Tab = 'search' | 'urls';
 
@@ -24,6 +34,30 @@ const App: React.FC = () => {
   const [lastSearchCriteria, setLastSearchCriteria] = useState<SearchCriteria | null>(null);
   // Fix: Add state to persist the search mode (Deep Search) across API calls.
   const [wasLastSearchInThinkingMode, setWasLastSearchInThinkingMode] = useState<boolean>(false);
+  const [history, setHistory] = useState<SearchHistoryEntry[]>([]);
+  const [currentHistoryId, setCurrentHistoryId] = useState<string | null>(null);
+
+  // Load saved search history once on startup.
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem(HISTORY_STORAGE_KEY);
+      if (saved) setHistory(JSON.parse(saved));
+    } catch {
+      // Ignore corrupt/unavailable storage.
+    }
+  }, []);
+
+  const persistHistory = (updater: (prev: SearchHistoryEntry[]) => SearchHistoryEntry[]) => {
+    setHistory(prev => {
+      const next = updater(prev).slice(0, HISTORY_LIMIT);
+      try {
+        localStorage.setItem(HISTORY_STORAGE_KEY, JSON.stringify(next));
+      } catch {
+        // Ignore storage write failures.
+      }
+      return next;
+    });
+  };
 
   const handleSearch = async (criteria: SearchCriteria, isThinkingMode: boolean) => {
     setIsLoading(true);
@@ -37,6 +71,16 @@ const App: React.FC = () => {
     try {
       const results = await searchCompanies(criteria, isThinkingMode);
       setSearchResults(results);
+      const entry: SearchHistoryEntry = {
+        id: `${Date.now()}`,
+        label: buildHistoryLabel(criteria),
+        criteria,
+        thinkingMode: isThinkingMode,
+        results,
+        timestamp: Date.now(),
+      };
+      setCurrentHistoryId(entry.id);
+      persistHistory(prev => [entry, ...prev]);
     } catch (err) {
       setError(err instanceof Error ? err.message : 'An error occurred while searching. Please try again.');
       setSearchResults([]);
@@ -78,16 +122,34 @@ const App: React.FC = () => {
     try {
       const existingNames = searchResults.map(r => r.name);
       const more = await searchCompanies(lastSearchCriteria, wasLastSearchInThinkingMode, existingNames);
-      setSearchResults(prev => {
-        const seen = new Set(prev.map(p => p.name.trim().toLowerCase()));
-        const newOnes = more.filter(m => !seen.has(m.name.trim().toLowerCase()));
-        return [...prev, ...newOnes];
-      });
+      const seen = new Set(searchResults.map(p => p.name.trim().toLowerCase()));
+      const merged = [...searchResults, ...more.filter(m => !seen.has(m.name.trim().toLowerCase()))];
+      setSearchResults(merged);
+      if (currentHistoryId) {
+        persistHistory(prev =>
+          prev.map(e => (e.id === currentHistoryId ? { ...e, results: merged } : e)),
+        );
+      }
     } catch (err) {
       setError(err instanceof Error ? err.message : 'An error occurred while fetching more leads. Please try again.');
     } finally {
       setIsLoadingMore(false);
     }
+  };
+
+  const handleRestoreHistory = (entry: SearchHistoryEntry) => {
+    setSelectedCompany(null);
+    setError(null);
+    setSearchResults(entry.results);
+    setLastSearchCriteria(entry.criteria);
+    setWasLastSearchInThinkingMode(entry.thinkingMode);
+    setCurrentHistoryId(entry.id);
+    setHasSearched(true);
+  };
+
+  const handleClearHistory = () => {
+    persistHistory(() => []);
+    setCurrentHistoryId(null);
   };
 
   const handleExportSearchCsv = async () => {
@@ -221,6 +283,12 @@ const App: React.FC = () => {
                 <h2 className="text-2xl font-bold text-slate-800 mb-4">Company Search</h2>
                 <SearchBar onSearch={handleSearch} isLoading={isLoading} />
             </div>
+            <HistoryPanel
+              history={history}
+              activeId={currentHistoryId}
+              onRestore={handleRestoreHistory}
+              onClear={handleClearHistory}
+            />
             {renderContent()}
           </>
         ) : (
