@@ -18,27 +18,42 @@ const BulkUrlFinder: React.FC = () => {
     .map(n => n.trim())
     .filter(Boolean);
 
-  const handleFind = async () => {
-    if (names.length === 0) return;
+  const runLookup = async (targetNames: string[]) => {
+    if (targetNames.length === 0) return;
     setIsLoading(true);
     setError(null);
     setHasRun(true);
     setCopied(false);
     setResults([]);
-    setProgress({ done: 0, total: names.length });
+    setProgress({ done: 0, total: targetNames.length });
     try {
-      const data = await findCompanyUrls(names, (done, total) =>
+      const data = await findCompanyUrls(targetNames, (done, total) =>
         setProgress({ done, total }),
       );
       setResults(data);
     } catch (err) {
-      setError('An error occurred while finding URLs. Please try again.');
+      setError(
+        err instanceof Error
+          ? err.message
+          : 'An error occurred while finding URLs. Please try again.',
+      );
       setResults([]);
     } finally {
       setIsLoading(false);
       setProgress(null);
     }
   };
+
+  const handleFind = () => runLookup(names);
+
+  // Quick check: look up just a few names (the first few you pasted, or a small
+  // built-in sample) so you can confirm everything works before a big run.
+  const handleTest = () =>
+    runLookup(
+      names.length > 0
+        ? names.slice(0, 5)
+        : ['Stripe', 'Notion', 'Figma', 'Shopify', 'Airbnb'],
+    );
 
   const handleClear = () => {
     setInput('');
@@ -103,6 +118,15 @@ const BulkUrlFinder: React.FC = () => {
               className="px-5 py-3 text-slate-600 font-semibold bg-slate-100 rounded-lg hover:bg-slate-200 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
             >
               Clear
+            </button>
+            <button
+              type="button"
+              onClick={handleTest}
+              disabled={isLoading}
+              title="Quickly check your API key with just a few names"
+              className="px-5 py-3 text-primary font-semibold bg-primary/10 rounded-lg hover:bg-primary/20 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+            >
+              Test 5
             </button>
             <button
               type="button"
