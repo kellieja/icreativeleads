@@ -16,8 +16,10 @@ To Go**, and **Magic Kitchen**, which the brief called out).
   be a brand GM/founder or roll up to the parent company's CEO (noted inline). Treat exec
   names as "last verified," and re-confirm before any formal outreach.
 
-**Directory size:** ~265 companies — the national/segment-leading brands **plus** smaller local
-operators in **all 50 states + DC**.
+**Directory size:** **~493 companies** — the national/segment-leading brands **plus** a deep
+roster of smaller local operators in **all 50 states + DC**. The **CSV
+(`meal_delivery_directory.csv`) is the complete, canonical list** and is sorted by state; the
+per-state tables in this Markdown cover the first wave of entries (the CSV contains the rest).
 
 **Verified emails:** `meal_delivery_directory.csv` now includes **Email** and **Email Status**
 columns. 237 named executives were run through Apollo enrichment; **80 returned a verified

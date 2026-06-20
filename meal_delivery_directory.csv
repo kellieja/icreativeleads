@@ -1,307 +1,494 @@
 State,Company,HQ City,CEO / Top Exec,Title,Website,Confidence,Status,Notes,Email,Email Status
-AL,What's For Supper,Huntsville,Unverified,,whatsforsupper.com,Low,Active,Ready-to-heat meals delivered weekly,,
-AR,Healthy Chew,Little Rock,Pete Nguyen,Founder & President,healthychewkitchen.com,High,Active,Founded 2015,,
-AZ,Nature's Purpose Meal Prep,Tempe,Michael Mitschele,Owner / Founder,npdelivered.com,High,Active,Phoenix/Scottsdale/Tempe,,
-AZ,The Simple Chefs,Phoenix,Alaina O'Donnell,Co-Founder / Owner,thesimplechefs.com,Med,Active,Founded 2017,,
-CA,Sunbasket,San Francisco,Don Barnett,CEO,sunbasket.com,Med,Active,Owned by Intelligent Foods (Ooshma Garg); CEO disputed,,unavailable
-CA,Gobble,Palo Alto,Ooshma Garg,Founder; CEO of parent Intelligent Foods,gobble.com,High,Active,Acquired by Intelligent Foods 2022,ooshma@gobble.com,verified
-CA,Thistle,San Francisco,Ashwin Cheriyan,Co-Founder & CEO,thistle.co,High,Active,Production in Vacaville,ashwin@thistle.co,verified
-CA,Methodology,San Francisco,Julie Nguyen,Co-Founder & CEO,gomethodology.com,Med,Active,Premium; ships nationwide,julie@gomethodology.com,verified
-CA,Fresh N Lean,Anaheim,Laureen & Thomas Asseo,Co-CEOs / Founders,freshnlean.com,High,Active,Organic ready-to-eat; founded 2010,laureen@nutritioncorp.com,verified
-CA,Veestro,Los Angeles,Mark Fachler,Founder & CEO,veestro.com,High,Active,Vegan/plant-based; founded 2013,,unavailable
-CA,MealPro,Citrus Heights,Andy Sartori,Founder & CEO,mealpro.net,High,Active,Sacramento area,asartori@mealpro.net,verified
-CA,Pete's Real Food,San Diego,Pete Servold,Founder / Owner,petesrealfood.com,High,Active,Formerly Pete's Paleo; founded 2012,,unavailable
-CA,Trifecta Nutrition,West Sacramento,Unverified,,trifectanutrition.com,Med,Active,Founders moved to board ~2024,,
-CO,Green Chef,Boulder,Dominik Richter (HelloFresh Group CEO),,greenchef.com,Med,Active,HelloFresh brand (acq. 2018); no standalone CEO,,
-CO,SupperBell,Denver,Frank Bonanno (culinary partner),CEO unverified,supperbelldenver.com,Med,Active,Chef-driven dinner delivery,,
-CO,The Spicy Radish,Denver,Katie Kannen,Founder / Owner,thespicyradish.com,Med,Active,Founded 2012,,unavailable
-CT,Honeyplate,West Haven,Unverified,,honeyplate.com,Med,Active,Exec not published,,
-FL,bistroMD,Naples,Ed Cederquist,Founder & CEO,bistromd.com,High,Active,Founded 2005; acq. by Marley Spoon Group SE 2024,,unavailable
-FL,Balance by bistroMD,Naples,Ed Cederquist,Founder & CEO (parent),bistromd.com,High,Active,Brand of bistroMD,,unavailable
-FL,Silver Cuisine,Naples,Ed Cederquist,Founder & CEO (parent),silvercuisine.com,High,Active,Senior-focused brand of bistroMD,,
-FL,Eat Clean To Go,Wilton Manors,Michael Martinez,Founder / Owner,eatcleantogo.com,High,Active,Legal name Eat Clean LLC; founded 2015 (brief-flagged),,
-FL,Catered Fit,Fort Lauderdale,Adam Friden,Founder & CEO,cateredfit.com,High,Active,Fitness meals (FL & CA); founded 2010,adam@cateredfit.com,verified
-FL,Clean Meals Miami,Miami,Unverified,,cleanmealsmiami.com,Low,Active,Keto/paleo/vegan,,
-FL,Ideal Nutrition,Miami area,Unverified,,idealnutritionnow.com,Low,Active,South FL ready-to-eat,,
-FL,Mindful Meals,Orlando,Unverified,,mindfulmealdelivery.com,Low,Active,Central Florida,,
-GA,ModifyHealth,Alpharetta,George "G.B." Pratt,Founder & CEO,modifyhealth.com,High,Active,Food-as-medicine; founded 2019,,
-GA,Garnish & Gather,Atlanta,Emily Golub,Founder,garnishandgather.com,High,Active,Meal kits + local grocery; founded 2012,emily@garnishandgather.com,verified
-GA,PeachDish,Atlanta,Judith Winfrey,President / Owner,peachdish.com,Med,Active,Founded 2013; status uncertain,judith@smallbites.club,verified
-IA,Mom's Meals,Ankeny,Chris Choi,CEO,momsmeals.com,High,Active,Brand of PurFoods; medical/senior meals,chris.choi@momsmeals.com,verified
-IA,Precision by Nutrition,Des Moines,Unverified,,precisionbynutrition.com,Med,Active,Central Iowa,,
-IL,Factor,Batavia,Nick Wernimont,Founder / brand lead,factor75.com,High,Active,HelloFresh brand (acq. 2020); Mike Apostal also cited as CEO,,unavailable
-IL,Home Chef,Chicago,Erik Jensen,CEO,homechef.com,High,Active,Kroger-owned; CEO since 2022,erik@getbrick.app,extrapolated
-IL,Tovala,Chicago,David Rabie,Co-Founder & CEO,tovala.com,High,Active,Smart oven + meals; founded 2015,david@tovala.com,verified
-IL,Seattle Sutton's Healthy Eating,Ottawa,René Ficek,Owner & President,seattlesutton.com,High,Active,Founded 1985,,
-IL,Macro Made Meals,Chicago metro,Kendall Jo Goodwin,Founder & CEO,macromademeals.com,Med,Active,Women-owned macro meal prep,,unavailable
-KS,Magic Kitchen,Lenexa,Greg Miller,CEO / Co-Founder,magickitchen.com,High,Active,Senior/diet meals; founded ~2005 (brief-flagged),greg@magickitchen.com,verified
-KS,my99protein,Overland Park,Jake Truelove,Founder & Head Chef,my99protein.com,High,Active,Ships KS & MO,get99@my99protein.com,verified
-KY,Home Cuisine,Louisville,Sandy Pike,Founder / Owner,homecuisineonline.com,High,Active,Founded 2004,,unavailable
-LA,Clean Creations,Gretna,Barbara Bolotte Blank,Founder / Owner,cleancreations.com,High,Active,Founded ~2011; Gretna & Baton Rouge,,
-MA,Purple Carrot,Needham,Daniel Goldstein,CEO,purplecarrot.com,High,Active,Plant-based; owned by Oisix; Goldstein appointed 2024,dgoldstein@thepurplecarrot.com,verified
-MA,Wildgrain,Somerville,Ismail Salhi,Co-Founder & CEO,wildgrain.com,High,Active,Bake-from-frozen DTC; founded 2020,ismail@wildgrain.com,verified
-MD,Farm to Temple,Towson,Raven Temple,Founder / Owner,farmtotemple.com,High,Active,Organic; Baltimore & DMV,,
-MI,Miroh Meals,Bloomfield Township,Monica Notaro,Founder,mirohmeals.com,High,Active,Plant-based; Metro Detroit; founded 2018,,unavailable
-MN,Let's Dish!,Minneapolis,Unverified,,,Med,Uncertain,Meal-assembly co. founded 2003,,
-MO,FlexPro Meals,Kansas City,Nathan Corn,President & Founder,flexpromeals.com,High,Active,National ready-to-eat; bootstrapped,nathan@flexpromeals.com,verified
-MO,Lean Kitchen Company,St. Joseph,Austin Evans,Founder & CEO,leankitchenco.com,High,Active,Macro meal-prep franchise,,
-MO,Fitstyle Foods,Kansas City,Jessica McLeod,Founder,fitstylefoods.com,Low,Active,KC meal prep,,unavailable
-MS,Advanced Meal Prep,Biloxi,Unverified,,advancedmealprep.com,Med,Active,MS Gulf Coast; LLC 2019,,
-NC,Clean Eatz,Wilmington,Eric Wyatt,CEO,cleaneatz.com,High,Active,Franchise 112+ locations; founders Don & Evonne Varady,eric.wyatt@thejoint.com,verified
-NC,The Good Kitchen,Charlotte,Amber Lewis,Founder / CEO,thegoodkitchen.com,High,Active,Paleo/keto/Whole30; founded 2011,amber@drinkslacka.com,verified
-NE,Eat Fit Go,Omaha,Erik Bird,President / CEO,eatfitgo.com,Med,Active,Founded 2016; Brock Hubert also cited,,
-NJ,Eat Clean Bro,Freehold,Jamie Giovinazzo,President & Founder,eatcleanbro.com,High,Active,Founded 2013; NJ + Atlanta kitchens,jamie@eatcleanbro.com,verified
-NV,702 Prep,Las Vegas,Noah Carter,Co-Founder / Owner,702prep.com,Med,Active,Founded 2017,,
-NY,HelloFresh US,New York,Uwe Voss,CEO North America,hellofresh.com,High,Active,US arm of HelloFresh SE (Group CEO Dominik Richter),uwe@hellofresh.com,verified
-NY,EveryPlate,New York,Uwe Voss (HelloFresh NA),,everyplate.com,Low,Active,HelloFresh value brand,,
-NY,Marley Spoon / Martha Stewart & Marley Spoon,New York,Dr. Daniel Koch,Interim CEO (parent),marleyspoon.com,High,Active,Parent in Berlin; interim CEO from June 2026,,unavailable
-NY,Dinnerly,New York,Marley Spoon Group,,dinnerly.com,Med,Active,Marley Spoon value brand,,
-NY,Hungryroot,New York,Benjamin McKean,Founder & CEO,hungryroot.com,High,Active,AI-personalized grocery + meals,ben@hungryroot.com,verified
-NY,CookUnity,Brooklyn,Mateo Marietti,Co-Founder & CEO,cookunity.com,High,Active,Chef-to-consumer marketplace; founded 2015,mateom@cookunity.com,verified
-NY,Daily Harvest,New York,Ricky Silver,CEO,daily-harvest.com,High,Active,Acquired by Chobani 2025,ricky@daily-harvest.com,verified
-NY,Splendid Spoon,Brooklyn,Nicole Centeno & Elise Densborn,Founder & Co-CEO / Co-CEO,splendidspoon.com,High,Active,Plant-based,nicole@splendidspoon.com,verified
-NY,Sakara Life,New York,Henry Davis,CEO,sakara.com,High,Active,Organic plant-based,henry@whitestarcapital.com,verified
-NY,Mosaic Foods,Brooklyn,Matt Davis,CEO & Co-Founder,mosaicfoods.com,Med,Active,Frozen plant-based; founded 2019,,
-NY,Provenance Meals,Brooklyn,Caroll Lee,Founder & CEO,provenancemeals.com,High,Active,Clean/functional-medicine meals,clee@provenancemeals.com,verified
-NY,Epicured,Glen Cove,Richard Bennett,Co-Founder & CEO,epicured.com,High,Active,Low-FODMAP; founded 2016,,unavailable
-NY,Top Chef Meals,Elmsford,Paul Ghiron,Founder & President,topchefmeals.com,High,Active,Senior/diabetic/renal,paul@topchefmeals.com,verified
-NY,Blue Apron,New York,Marc Lore (Wonder Group),,blueapron.com,Med,Active,Acquired by Wonder Group 2023; no standalone CEO,,
-OH,Sprinly,Cleveland,Ray Lui & Mary McCann,Co-Founders / Co-CEOs,sprinly.com,High,Active,Organic plant-based; founded 2016,ray@sprinly.com,verified
-OH,Hummus Fit,Columbus,Tony & Liana Mavruk,Co-Founders / Owners,myhummusfit.com,Med,Active,Mediterranean meal prep,,
-OK,Oklahoma City Meal Prep,Oklahoma City,Unverified,,oklahomacitymealprep.com,Med,Active,Local OKC delivery,,
-OR,All In Meals,Portland,Unverified,Owner,allinmeals.com,Low,Active,Portland/Salem/Eugene/Vancouver,,
-PA,Nutrisystem,Fort Washington,Stephen Mikulak,President,nutrisystem.com,Med,Active,Brand of Wellful Inc. (CEO Brandon Adcock),smikulak@nutrisystem.com,verified
-PA,Home Appétit,Philadelphia,Lee Wallach,Founder / Owner,homeappetitphilly.com,High,Active,Founded 2014; PA/NJ/DE,lee@homeappetitphilly.com,verified
-PA,Be WellFed,Philadelphia,Adrianna Hecht & Laurenza Giosa,Co-Founders / Owners,bewellfed.net,High,Active,Sister-owned; gluten/dairy-free,adrianna@bewellfed.net,verified
-SC,212 Meal Prep,Conway,Jeffrey Jensen,Co-Founder,212meals.com,High,Active,Horry County; Carolinas pickup,,
-TN,Vibrant Meals,Nashville,Marco S. Biscarini,Co-Founder & CEO,myvibrantmeals.com,High,Active,2024 Inc. 5000; formerly Eat Well Nashville,,unavailable
-TX,Snap Kitchen,Austin,Mitchell Raisch,CEO,snapkitchen.com,High,Active,Acquired by Goodfood Market 2023,mitchell_raisch@snapkitchen.com,verified
-TX,My Fit Foods,Houston,Mario Mendias,Founder / Owner,myfitfoods.com,Med,Active,Relaunched 2019,,unavailable
-TX,Personal Trainer Food,Fort Worth,Mike Starks,Founder & CEO,personaltrainerfood.com,High,Active,Weight-loss frozen meals; founded 2011,mike@starks.group,verified
-UT,Beehive Meals,Layton,Allyse Jackson,Founder & CEO,beehivemeals.com,High,Active,Slow-cooker freezer meals; UT/ID/AZ,allyse@beehivemeals.com,verified
-VA,Territory Foods,Arlington,Ellis Singer McCue,CEO,territoryfoods.com,High,Active,Chef-made dietitian-designed; CEO since 2019,,unavailable
-VA,MightyMeals,Gainesville,Stefano Marzano,CEO & Executive Chef,eatmightymeals.com,High,Active,Founded 2015; ~27 states,stefano@eatmightymeals.com,verified
-WA,Westerly Kitchen,Seattle,Matt Hunt,Co-Founder / Exec Chef,westerlykitchen.com,High,Active,Family-owned; founded 2018,matt@westerlykitchen.com,verified
-WI,The Real Good Life,Wauwatosa,Maggie Skarich Joos,Founder / Owner,therealgoodlife.com,High,Active,Milwaukee metro; founded 2016,,unavailable
-AK,Feed Me AK,Anchorage,Amber Rotar,Founder/Owner,feedmeak.com,High,Active,Local; ships statewide via Alaska Airlines,,
 AK,Alaska Dinner Factory,Anchorage,Linnea Cummings,Founder/Owner,alaskadinnerfactory.com,High,Active,Local; founded 2006,linnea@alaskadinnerfactory.com,verified
+AK,Feed Me AK,Anchorage,Amber Rotar,Founder/Owner,feedmeak.com,High,Active,Local; ships statewide via Alaska Airlines,,
 AK,Phenom Meals,Anchorage,Unverified,,phenommeals.com,Med,Active,Local; weekly subscription,,
-AL,Katie's Plates,Birmingham,Katie Strickland,Founder,katiesplates.com,High,Active,Local; paleo/GF; also Nashville,,
-AL,Nourish Meals,Irondale,Mary Drennen & Tiffany Vickers Davis,Co-Founders,nourishmeals.com,High,Active,Local; founded 2014,mary@nourishmeals.com,verified
 AL,China's Creations,Huntsville,China Leary,Owner,chinascreationsprep.com,High,Active,Local; Huntsville/Madison,,
+AL,High Bar Nutrition,Irondale,Kat Sweatt,Founder,highbarnutrition.fit,High,Active,Local; Birmingham metro,,
+AL,Katie's Plates,Birmingham,Katie Strickland,Founder,katiesplates.com,High,Active,Local; paleo/GF; also Nashville,,
 AL,MealFit,Birmingham,Unverified,,mealfit.co,Med,Active,Local; delivery + catering,,
+AL,Nourish Meals,Irondale,Mary Drennen & Tiffany Vickers Davis,Co-Founders,nourishmeals.com,High,Active,Local; founded 2014,mary@nourishmeals.com,verified
+AL,What's For Supper,Huntsville,Unverified,,whatsforsupper.com,Low,Active,Ready-to-heat meals delivered weekly,,
+AR,Elite Performance Meals,Bryant,Tamara & Tony Baka,Owners,eliteperformancemeals.com,High,Active,Local; veteran-owned,,
+AR,GFresh Meal Prep,Little Rock,Jonathon Green,Owner,gfreshmealprep.com,High,Active,Local,,
+AR,Healthy Chew,Little Rock,Pete Nguyen,Founder & President,healthychewkitchen.com,High,Active,Founded 2015,,
+AR,Provisions Meal Prep,Jonesboro,Greg Vance,Chef/Operator,provisionsmealprep.com,Med,Active,Local,,
 AR,Simply Done NWA,Rogers,Wendi Snider-Seidel & Christina Roling,Co-Founders,simplydonenwa.com,High,Active,Local; NW Arkansas,,
 AR,Stu's Clean Cookin',Van Buren,Stuart Rowland,Owner/Founder,cleancookin.com,High,Active,Local; NWA/Fort Smith,,
-AR,GFresh Meal Prep,Little Rock,Jonathon Green,Owner,gfreshmealprep.com,High,Active,Local,,
-AR,Provisions Meal Prep,Jonesboro,Greg Vance,Chef/Operator,provisionsmealprep.com,Med,Active,Local,,
-AR,Elite Performance Meals,Bryant,Tamara & Tony Baka,Owners,eliteperformancemeals.com,High,Active,Local; veteran-owned,,
 AR,The Clean Eatery,Little Rock,Ryan Merritt McGehee,Owner/Founder,thecleaneatery.com,Med,Active,Local,,
-AZ,Cura Kitchen,Tempe,Reid Torrens,Owner/Founder,curakitchenaz.com,High,Active,Local; organic; valley-wide,,
+AZ,BizFit Meals,Tucson,Zach Peterson & Kimiko Donahue,Co-Founders,bizfitmeals.com,High,Active,Local; macro-friendly,,
 AZ,Brento Box,Phoenix,Brent Imbornoni,Founder,getbrentobox.com,High,Active,Local; since 2013,,
+AZ,Cura Kitchen,Tempe,Reid Torrens,Owner/Founder,curakitchenaz.com,High,Active,Local; organic; valley-wide,,
+AZ,Food by Fabio,Phoenix,Matthew Maguire,Founder,foodbyfabio.com,Med,Active,Local; Phoenix & LA,,
+AZ,Mad Fresh Kitchen,Tempe,Unverified,Co-Founders/Owners,eatmadfresh.com,Med,Active,Local; Phoenix/Tempe/Scottsdale; founded 2018,,
+AZ,Maddox Lane,Scottsdale,Amber Maddox,Founder/Owner,themaddoxlane.com,High,Active,Local; Mediterranean/plant-based; est 2020,,
+AZ,Mind Fuel Meal Prep,Phoenix,Unverified,Co-Founders/Owners,azmindfuel.com,Med,Active,Local; founded 2015,,
+AZ,Nature's Purpose Meal Prep,Tempe,Michael Mitschele,Owner / Founder,npdelivered.com,High,Active,Phoenix/Scottsdale/Tempe,,
 AZ,On the Road Meals,Phoenix,Unverified,Owners,ontheroadmeals.com,Med,Active,Local; Phoenix & Tucson,,
+AZ,Queen Quizine,Tucson,Unverified,Owner,queenquizine.com,Low,Active,Local; plant-based Tucson,,
 AZ,Scratch Culinary,Phoenix,Unverified,,scratchculinary.com,Med,Active,Local; subscription,,
-CA,My Healthy Penguin,Rancho Cucamonga,Christine Lopez,Founder & CEO,myhealthypenguin.com,High,Active,Local; Inland Empire/LA/OC,,
-CA,Pure Meal Prep SD,San Diego,Brett & Cassie Dudley,Co-owners,puremealprepsd.com,Med,Active,Local; organic,brett@puremealprep.com,verified
-CA,Macro Meal Prep San Diego,San Diego,Savannah Shapley,Founder,macromealprepsd.com,Med,Active,Local,sshapley@swccd.edu,verified
-CA,Prept Meals,San Diego,Daryl (surname unverified),Founder,eatpreptmeals.com,Med,Active,Local; high-protein,,
+AZ,The Simple Chefs,Phoenix,Alaina O'Donnell,Co-Founder / Owner,thesimplechefs.com,Med,Active,Founded 2017,,
+AZ,The Tasteful Kitchen,Tucson,Unverified,Owner,thetastefulkitchen.com,Low,Active,Local; vegan since 2011,,
+AZ,WarFuel Kitchen,Tucson,Joseph Graves,Founder/Owner,warfuelkitchen.com,High,Active,Local; family-owned; est 2015,,
+CA,ActivMeals,Fresno,Unverified,,activmeals.com,Low,Active,Local; Fresno meal delivery,,
+CA,Chef Nourish,Los Angeles,Unverified,,chefnourish.com,Low,Active,Local; customized meal prep,,
+CA,Chef'd,El Segundo,Kyle Ransford,Founder & CEO,,High,Defunct,DTC shut July 2018,,
+CA,Eatwelle,Los Angeles,Unverified,Founder,eatwelle.com,Med,Active,Local; organic meal delivery,,
+CA,Farm Fresh Meals,San Diego,Unverified,,farmfreshmeals.com,Low,Active,Local; SD & OC meal prep,,
+CA,Fire Foods Meal Prep,Fresno,Enedina Neves,Founder,firefoodsmealprep.com,Med,Active,Local; Fresno; launched 2023,,
+CA,Fit Mealz,San Jose,Unverified,,fitmealz.com,Low,Active,Local; San Jose & Dublin,,
+CA,Franny's Kitchen,San Francisco,Frances Sanahuja,Founder/Chef,frannyskitchensf.com,Med,Active,Local; home-style meal delivery,,
+CA,Fresh N Lean,Anaheim,Laureen & Thomas Asseo,Co-CEOs / Founders,freshnlean.com,High,Active,Organic ready-to-eat; founded 2010,laureen@nutritioncorp.com,verified
+CA,Gainz & Shreds Meal Prep,San Jose,Andrew Aguilar,Founder/Owner,gainzandshredsmealprep.com,High,Active,Local; macro-friendly; founded 2022,,
+CA,Gobble,Palo Alto,Ooshma Garg,Founder; CEO of parent Intelligent Foods,gobble.com,High,Active,Acquired by Intelligent Foods 2022,ooshma@gobble.com,verified
+CA,Goop Kitchen,Los Angeles,Donald Moore,Co-Founder & CEO,goopkitchen.com,High,Active,Local; Gwyneth Paltrow brand; launched 2021,,
+CA,Grub Boxx,Sacramento,Unverified,Founder,grubboxx.com,Med,Active,Local; Sacramento,,
+CA,Healthy And Fresh Cuisine,Santa Ana,Alex Cruz,Founder/Chef,healthyandfreshmealprep.com,High,Active,Local; OC/LA/IE; keto/performance,,
+CA,Healthy Habits Meal Prep,San Jose,Kalin Esavi,Owner,healthyhabitsmealprep.com,Med,Active,Local; Silicon Valley,,
+CA,Healthy Meals Kitchen,Orange County,Adam Kholghy,Founder/Co-Owner,healthymealskitchen.com,Med,Active,Local; OC healthy meal prep,,
+CA,Jessie & Laurent,San Rafael,Rick Graves,Managing Partner,jessieandlaurent.com,Med,Active,Local; founded 1981; Bay Area,,
+CA,Kooshi Gourmet,West Hollywood,Albert Melera,Founder/Owner,kooshigourmet.com,High,Active,Local; founded 2014; ex-Michelin chef,,
 CA,Local Foodz,San Francisco,Unverified,,localfoodz.co,Med,Active,Local; Bay Area + NV,,
+CA,Macro Meal Prep San Diego,San Diego,Savannah Shapley,Founder,macromealprepsd.com,Med,Active,Local,sshapley@swccd.edu,verified
+CA,Macro Meals,Los Angeles,Matt Ardito,Founder,eatmacromeals.com,Med,Active,Local; macro/bodybuilding,,
+CA,Meal Prep On Demand,San Diego,Unverified,Co-Owners,mealprepondemand.com,Med,Active,Local; since 2014 (was Lean Machine),,
+CA,MealPro,Citrus Heights,Andy Sartori,Founder & CEO,mealpro.net,High,Active,Sacramento area,asartori@mealpro.net,verified
+CA,Methodology,San Francisco,Julie Nguyen,Co-Founder & CEO,gomethodology.com,Med,Active,Premium; ships nationwide,julie@gomethodology.com,verified
+CA,Munchery,San Francisco,James Beriker,CEO,,High,Defunct,Shut down Jan 2019,,
+CA,Muscle Up Meals,Los Angeles,Unverified,Owner,muscleupmeals.com,Low,Active,Local; fitness/macro,,
+CA,My Healthy Penguin,Rancho Cucamonga,Christine Lopez,Founder & CEO,myhealthypenguin.com,High,Active,Local; Inland Empire/LA/OC,,
+CA,NutriFit,Los Angeles,Jackie Keller & Phil Yaney,Founders,nutrifitonline.com,High,Active,Local; customized diet meals SoCal since 1987,,
+CA,OC Fit Meal Prep,Orange County,Unverified,,ocfmp.com,Low,Active,Local; OC meal prep,,
+CA,Olive Branch Culinary Services,San Francisco,Jhonathan Rupchand-Kokotek,Owner/Chef,olivebranchculinary.com,Med,Active,Local; meal delivery,,
+CA,Organic Oren,Los Angeles,Oren Giladi,Founder/Owner,organicoren.com,High,Active,Local; launched 2020; SoCal,,
+CA,Pete's Real Food,San Diego,Pete Servold,Founder / Owner,petesrealfood.com,High,Active,Formerly Pete's Paleo; founded 2012,,unavailable
+CA,Plant Based Meals,San Diego,Unverified,Founder/Chef,plantbasedmeals.com,Med,Active,Local; plant-based SD,,
+CA,Planted Table,Oakland,Lauren Mahlke & Megan Scott,Co-Owners,plantedtable.com,High,Active,Local; vegan; Bay Area,,
+CA,Prepboys Meal Prep,San Jose,Unverified,,prepboysmealprep.com,Low,Active,Local; Bay Area macro,,
 CA,Prepped Eats,Sacramento,Unverified,,preppedeatsmeals.com,Med,Active,Local,,
-CO,Prefare Meals,Denver,Doug Humble,Founder & CEO,prefaremeals.com,High,Active,Local,doug@prefaremeals.com,verified
-CO,Sparrow Kitchen,Denver,Unverified,,sparrowkitchen.com,Med,Active,Local; from-scratch,,
+CA,Prept Meals,San Diego,Daryl (surname unverified),Founder,eatpreptmeals.com,Med,Active,Local; high-protein,,
+CA,Pure Meal Prep SD,San Diego,Brett & Cassie Dudley,Co-owners,puremealprepsd.com,Med,Active,Local; organic,brett@puremealprep.com,verified
+CA,Rawvolution,Santa Monica,Matt Amsden,Founder,rawvolution.com,High,Active,Local; raw vegan; ships nationwide,,
+CA,Rosemary's Farm to Fork,Sacramento,Unverified,Founder/Owner,rosemarysfarmtofork.com,Med,Active,Local; paleo/organic,,
+CA,Seizes Meals,Corona,Unverified,,seizesmeals.com,Low,Active,Local; IE to OC/LA organic,,
+CA,Sprig,San Francisco,Gagan Biyani,Co-Founder & CEO,,High,Defunct,Shut down May 2017,,
+CA,Sunbasket,San Francisco,Don Barnett,CEO,sunbasket.com,Med,Active,Owned by Intelligent Foods (Ooshma Garg); CEO disputed,,unavailable
+CA,Symple Foods,Oakland,Airen Aikman,Founder/Owner,symplefoods.com,High,Active,Local; Bay Area fully-cooked meals,,
+CA,Taylor Made Cuisine,Orange County,Unverified,,taylormadecuisine.com,Low,Active,Local; OC meal delivery & catering,,
+CA,The Cupboard,San Francisco,Unverified,Founder,thecupboardsf.com,Med,Active,Local; organic meal delivery since 2016,,
+CA,The Nourish Lab,Orange County,Unverified,,thenourishlaboc.com,Low,Active,Local; OC meal prep,,
+CA,The Vegan Taste,Los Angeles,Jason Wyrick,Founder/Chef,thevegantaste.com,High,Active,Local; vegan,,
+CA,Thistle,San Francisco,Ashwin Cheriyan,Co-Founder & CEO,thistle.co,High,Active,Production in Vacaville,ashwin@thistle.co,verified
+CA,Trifecta Nutrition,West Sacramento,Unverified,,trifectanutrition.com,Med,Active,Founders moved to board ~2024,,
+CA,Underground Prep,Inland Empire,Jordan Aquino,Owner,undergroundprep.com,Med,Active,Local; SoCal regions,,
+CA,Veestro,Los Angeles,Mark Fachler,Founder & CEO,veestro.com,High,Active,Vegan/plant-based; founded 2013,,unavailable
+CA,Vegin' Out,Los Angeles,Shad Loh,Owner,veginout.com,High,Active,Local; plant-based since 2008,,
+CA,Vita Kitchen,Oakland,Elyse Bekins,Founder/Chef,vitakitchen.com,High,Active,Local; Bay Area since 2017,,
+CA,Z.E.N. Foods,Sun Valley,Mariana Rossano,Founder & CEO,zenfoods.com,High,Active,Local; organic calorie-controlled; LA/OC/Ventura/SD,,
+CO,Chef in Boots,Colorado Springs,Rebecca Lavender,Chef/Owner,chefinboots.com,High,Active,Local; Colo Springs; est 2018,,
+CO,Five Eggs Meals,Denver,Sarah Lair,Founder/Owner,fiveeggsmeals.com,High,Active,Local; ready-to-heat; founded 2015,,
+CO,Green Chef,Boulder,Dominik Richter (HelloFresh Group CEO),,greenchef.com,Med,Active,HelloFresh brand (acq. 2018); no standalone CEO,,
 CO,Peak Fitness Meals,Denver,Unverified,,peakfitnessmeals.com,Med,Active,Local; status uncertain,,
-CT,October Kitchen,Manchester,Paul Finney,Founder,octoberkitchen.com,High,Active,Local; est 2000; Greater Hartford,paul.finney@healthrageous.net,verified
+CO,Prefare Meals,Denver,Doug Humble,Founder & CEO,prefaremeals.com,High,Active,Local,doug@prefaremeals.com,verified
+CO,Spade & Spoon,Denver,Joy Rubey,Founder/Owner,spadespoon.com,High,Active,Local; Boulder area; launched 2022,,
+CO,Sparrow Kitchen,Denver,Unverified,,sparrowkitchen.com,Med,Active,Local; from-scratch,,
+CO,SupperBell,Denver,Frank Bonanno (culinary partner),CEO unverified,supperbelldenver.com,Med,Active,Chef-driven dinner delivery,,
+CO,TBD Foods,Denver,Terence Rogers,Chef/Owner,tbdfoods.com,High,Active,Local; chef-crafted weekly; Denver since 2016,,
+CO,The Spicy Radish,Denver,Katie Kannen,Founder / Owner,thespicyradish.com,Med,Active,Founded 2012,,unavailable
+CO,Tuesday Foods,Carbondale,Lisa Cohen & Kelly Hollins,Co-Founders,tuesdayfoods.co,High,Active,Local; organic plant-based; serves Denver/Boulder,,
+CO,Your Whole Meal,Denver,Unverified,Owner,yourwholemeal.com,Low,Active,Local; Denver & Las Vegas,,
+CT,Box Bistro,Hartford,Unverified,Owner,boxbistroct.com,Low,Active,Local; Hartford-area meal prep,,
+CT,Honeyplate,West Haven,Unverified,,honeyplate.com,Med,Active,Exec not published,,
 CT,Maikana Foods,Darien,Jamieson Van Loan,Chef/Owner,maikanafoods.com,High,Active,Local; Fairfield County,,
+CT,Meal JOY,Stamford,Sergio Labrosciano,Founder/Owner,mealjoyfoods.com,High,Active,Local; Fairfield & Westchester,,
+CT,October Kitchen,Manchester,Paul Finney,Founder,octoberkitchen.com,High,Active,Local; est 2000; Greater Hartford,paul.finney@healthrageous.net,verified
 CT,Platinum Prep Meals,East Haven,Matthew & Steven Poleshek,Co-Founders,platinumprepmeals.com,High,Active,Local; statewide CT,,
 CT,Simply Delicious,Wilton,Lauren Peden,Founder/Chef,simplydeliciousct.com,High,Active,Local; est 2009,,
+CT,The Home Cook,Stamford,Stephanie Berghoff,Founder/Owner,thehomecookct.com,High,Active,Local; Fairfield/Westchester,,
 DC,Chef B Meals,Washington,Shalia Coburn,Owner & Chef,chefbmeals.com,High,Active,Local; DMV,,
-DC,Phresh Gourmet,Washington,Amanuel Gossa,Founder & CEO,phreshgourmet.com,High,Active,Local; all 8 wards,,unavailable
 DC,La Dinette,Washington,Unverified,Owner,ladinettedc.com,Med,Active,Local; Capitol Hill,,
+DC,Phresh Gourmet,Washington,Amanuel Gossa,Founder & CEO,phreshgourmet.com,High,Active,Local; all 8 wards,,unavailable
 DE,Full Circle Food,Newark,Robbie Jester & Tim Bolt,Co-Founders,eatfullcirclefood.com,High,Active,Local; DE/PA/MD,,
-DE,Sherm's Heat and Eat,Wilmington,Michael Porter,Owner/Founder,shermsheatandeat.com,High,Active,Local; veteran-owned; est 2008,,
 DE,Heard Chef Meal Prep,Wilmington,Stephanie Mitchell,Founder & Chef,heardchefmealprep.com,High,Active,Local; minority/woman-owned,,
+DE,Sherm's Heat and Eat,Wilmington,Michael Porter,Owner/Founder,shermsheatandeat.com,High,Active,Local; veteran-owned; est 2008,,
 DE,The Scratchmill Kitchen,Wilmington,Barry Fleischmann,Chef/Owner,scratchmill.com,Med,Active,Local,barry@scratchmill.com,verified
-FL,Jet Fuel Meals,Miami,Robert del Castillo,Founder,jetfuelmeals.com,High,Active,Local; Miami/Orlando/Tampa,rob@jetfuelmeals.com,verified
-FL,Mind Over Matter Meals,Lutz,Sam Kennedy,Owner,mindovermattermeals.com,High,Active,Local; Tampa Bay,,
-FL,FitEx Meals,Tampa,Michael Neophytou,President/Owner,fitexmeals.com,High,Active,Local; since 2016,mike@fitexmeals.com,verified
-FL,Eating By V,Miami,Viviana Espinosa,Founder,eatingbyv.com,Med,Active,Local; Miami-Dade,v@eatingbyv.com,verified
 FL,Alimento813,Tampa,Jackson (surname unverified),Co-Owner,alimento813.com,Med,Active,Local; Latin-inspired,,
+FL,AthleticsFit Miami,Miami,Unverified,,afmeals.com,Low,Active,Local; Miami fitness meal prep,,
+FL,Balance by bistroMD,Naples,Ed Cederquist,Founder & CEO (parent),bistromd.com,High,Active,Brand of bistroMD,,unavailable
+FL,Body & Soul Healthy Meal Plans,Fort Myers,Gene Allsworth & Christy Boyer,Co-Owners/Chefs,bodyandsoulmeals.com,High,Active,Local; plant-driven organic SWFL,,
+FL,Catered Fit,Fort Lauderdale,Adam Friden,Founder & CEO,cateredfit.com,High,Active,Fitness meals (FL & CA); founded 2010,adam@cateredfit.com,verified
+FL,Chef Ami,Tampa,Matt & Johana Dickahuse,Co-Founders/Owners,chefami.com,High,Active,Local; meal kits; Tampa/Gainesville/Ocala,,
+FL,Clean Meals Miami,Miami,Unverified,,cleanmealsmiami.com,Low,Active,Keto/paleo/vegan,,
+FL,Eat Clean To Go,Wilton Manors,Michael Martinez,Founder / Owner,eatcleantogo.com,High,Active,Legal name Eat Clean LLC; founded 2015 (brief-flagged),,
+FL,Eating By V,Miami,Viviana Espinosa,Founder,eatingbyv.com,Med,Active,Local; Miami-Dade,v@eatingbyv.com,verified
+FL,Empower Meal Prep,Eustis,Rick & Teresa Copley,Co-Founders/CEO,empower-mealprep.com,High,Active,Local; Central FL; franchising,,
+FL,FitEx Meals,Tampa,Michael Neophytou,President/Owner,fitexmeals.com,High,Active,Local; since 2016,mike@fitexmeals.com,verified
+FL,Fitlife Foods,Tampa,David Osterweil,Founder & CEO,eatfitlifefoods.com,High,Active,Local; founded 2011; retail + delivery FL metros + Atlanta,,
+FL,Fresh Meal Plan,Boca Raton,Marc Elkman & Patrick Delaney,Co-Founders,freshmealplan.com,High,Active,Local; founded 2011; Inc 5000; statewide FL + ship,,
+FL,Health Rush,Fort Lauderdale,Unverified,,myhealthrush.com,Med,Active,Local; Broward/Boca,,
+FL,Healthy Chef Creations,Winter Park,Unverified,,healthychefcreations.com,Med,Uncertain,Founder sold ~2013; likely closed,,
+FL,Ideal Nutrition,Miami area,Unverified,,idealnutritionnow.com,Low,Active,South FL ready-to-eat,,
+FL,Jet Fuel Meals,Miami,Robert del Castillo,Founder,jetfuelmeals.com,High,Active,Local; Miami/Orlando/Tampa,rob@jetfuelmeals.com,verified
+FL,Jetpack Nutrition,Jacksonville,Jet Peng,Founder/Owner,jetpacknutrition.com,High,Active,Local; IFBB pro; ~2015,,
+FL,Kathy's Table,Jacksonville,Kathy Godwin,Founder/Owner,kathystable.com,High,Active,Local; GF/DF since 2013,,
+FL,Mind Over Matter Meals,Lutz,Sam Kennedy,Owner,mindovermattermeals.com,High,Active,Local; Tampa Bay,,
+FL,Mindful Meals,Orlando,Unverified,,mindfulmealdelivery.com,Low,Active,Central Florida,,
+FL,Munch Thyme,Homestead,David Lesser,Founder/Owner,munchthyme.com,High,Active,Local; farm-to-table; ships nationwide,,
+FL,Silver Cuisine,Naples,Ed Cederquist,Founder & CEO (parent),silvercuisine.com,High,Active,Senior-focused brand of bistroMD,,
+FL,The Hybrid Chef,Jupiter,Tim Armstrong,Founder/Operator,thehybridchef.com,Med,Active,Local; verify active status,,
+FL,bistroMD,Naples,Ed Cederquist,Founder & CEO,bistromd.com,High,Active,Founded 2005; acq. by Marley Spoon Group SE 2024,,unavailable
 GA,Atlanta Meal Prep,Atlanta,Bea Lewis,Founder,atlantamealprep.com,High,Active,Local; since 2015,,unavailable
-GA,Perfectly Portioned Nutrition,Atlanta,Jessica Todd,Owner (RDN),perfectlyportionednutrition.com,High,Active,Local,jessica.todd@davita.com,verified
+GA,Atlanta Personal Chef Service,Atlanta,Amy Patricio,Founder/Co-Owner,atlantapersonalchefservice.com,Med,Active,Local; prepared meals + delivery since 2012,,
+GA,Garnish & Gather,Atlanta,Emily Golub,Founder,garnishandgather.com,High,Active,Meal kits + local grocery; founded 2012,emily@garnishandgather.com,verified
+GA,Girl With A Recipe,Atlanta,Unverified,Founder/Chef,girlwitharecipe.com,Med,Active,Local; family meal delivery + catering,,
 GA,Mercer Street Meals,Atlanta,Lance & Gracie Gummere,Owners,mercerstreetmeals.com,High,Active,Local; East Atlanta,,
+GA,ModifyHealth,Alpharetta,George "G.B." Pratt,Founder & CEO,modifyhealth.com,High,Active,Food-as-medicine; founded 2019,,
+GA,Morsel Meals,Savannah,Megyn Jefferson,Founder/Owner,morselmeals.com,High,Active,Local; vegan; Savannah + Bluffton SC,,
+GA,P.S. Catering,Savannah,Unverified,Co-Owners,pscateringsav.com,Med,Active,Local; daily meal prep (catering-leaning),,
+GA,PeachDish,Atlanta,Judith Winfrey,President / Owner,peachdish.com,Med,Active,Founded 2013; status uncertain,judith@smallbites.club,verified
+GA,Perfectly Portioned Nutrition,Atlanta,Jessica Todd,Owner (RDN),perfectlyportionednutrition.com,High,Active,Local,jessica.todd@davita.com,verified
 GA,Social Express Meal Prep,Atlanta,Jarvis Williams,Founder/Chef,chefjarvis.com,High,Active,Local,,unavailable
 HI,Aina Meals,Waipahu,Jeff Deutschmann,Co-owner,ainameals.com,High,Active,Local; Oahu; est 2018,jeff@ainameals.com,verified
 HI,Good Clean Food Hawaii,Kailua,Janelle Bremer,Founder/CEO,gcfhawaii.com,High,Active,Local; island-wide; est 2012,,unavailable
 HI,Meals In a HeartBeet,Kailua-Kona,Jasmine Silverstein,Owner/Chef,heartbeetfoods.com,High,Active,Local; Big Island,meals@heartbeetfoods.com,verified
+IA,Chilled Freezer Meals,Center Point,Lindsy Trotter,Founder/Owner,chilledfreezermeals.com,High,Active,Local; Eastern Iowa,,
 IA,Dinner Dispatch,Windsor Heights,LeAnn Thongvanh,Co-Owner,dinner-dispatch.com,High,Active,Local; Des Moines metro,leann@dinner-dispatch.com,verified
 IA,Fresh Fit Meals,Urbandale,Aaron Anderson,Co-Owner,freshfitmeals.com,High,Active,Local; Des Moines metro,aaron@freshfitmeals.org,verified
+IA,Mom's Meals,Ankeny,Chris Choi,CEO,momsmeals.com,High,Active,Brand of PurFoods; medical/senior meals,chris.choi@momsmeals.com,verified
 IA,New World Kitchen,Des Moines,Madeline Krantz,Owner/Chef,newworldkitchendsm.com,High,Active,Local; plant-based,,
 IA,Nourished DSM,Des Moines,Beth Jackson,Owner,nourisheddsm.com,High,Active,Local; vegetarian/vegan,,
-IA,Chilled Freezer Meals,Center Point,Lindsy Trotter,Founder/Owner,chilledfreezermeals.com,High,Active,Local; Eastern Iowa,,
-ID,MEP Meals,Meridian,RJ Valadez,Owner,mepmeals.com,High,Active,Local; Treasure Valley + Twin Falls,,
-ID,Simple Bites Meals,Meridian,Beth Alpaugh,CEO/Owner,simplebitesmeals.com,High,Active,Local; USDA facility,beth@simplebites.net,verified
-ID,Prepp'd Meals,Idaho Falls,Christopher Parrett,Co-Owner,preppdmeals.com,High,Active,Local; subscription,,
+IA,Precision by Nutrition,Des Moines,Unverified,,precisionbynutrition.com,Med,Active,Central Iowa,,
+IA,Viva Fit Kitchen,Council Bluffs,Alejandra Valdez,Founder,vivafitkitchen.com,High,Active,Local; Latin-inspired macro; Omaha metro,,
+ID,Ava Flavas,Boise,Unverified,Owner,avaflavas.com,Low,Active,Local; weekly menu; no subscription,,
+ID,Feed My Fit,Meridian,Unverified,Owner,feedmyfit.com,Low,Active,Local; delivery + retail,,
 ID,Klean Kitchen Co.,Boise,Unverified,,thekleankitchenco.com,Med,Active,Local; two Boise locations,,
+ID,LeanFeast Meridian,Meridian,Unverified,Franchise Owner,leanfeast.com,Low,Active,Local; clean-eating franchise,,
+ID,MEP Meals,Meridian,RJ Valadez,Owner,mepmeals.com,High,Active,Local; Treasure Valley + Twin Falls,,
+ID,Not Your Mamas Meals,Boise,Unverified,Owner/Chef,notyourmamasmeals.com,Med,Active,Local; Boise fresh meals,,
+ID,Prepp'd Meals,Idaho Falls,Christopher Parrett,Co-Owner,preppdmeals.com,High,Active,Local; subscription,,
+ID,Simple Bites Meals,Meridian,Beth Alpaugh,CEO/Owner,simplebitesmeals.com,High,Active,Local; USDA facility,beth@simplebites.net,verified
 IL,All Meal Prep,Chicago,Joseph Patrick,Founder,allmealprep.com,High,Active,Local; + Edgewater cafe,joseph@brandxfocus.com,verified
-IL,Meal Village,Lisle,Ravi Ayyalaraju,Founder & CEO,mealvillage.com,High,Active,Local; Chicago suburbs,,
+IL,Eat Clean Chicago,Chicago,Jesus & Juan Garcia,Co-Founders,eatcleanchicago.com,High,Active,Local; Chicagoland; founded 2015,,
+IL,Factor,Batavia,Nick Wernimont,Founder / brand lead,factor75.com,High,Active,HelloFresh brand (acq. 2020); Mike Apostal also cited as CEO,,unavailable
+IL,Fittingly Delicious,Chicago,Unverified,Owners,fittinglydelicious.com,Med,Active,Local; est 2016,,
+IL,Home Chef,Chicago,Erik Jensen,CEO,homechef.com,High,Active,Kroger-owned; CEO since 2022,erik@getbrick.app,extrapolated
 IL,Just Right Eating,Springfield,Stephanie Johnson,Co-Owner,justrighteating.com,High,Active,Local; Central IL,,unavailable
+IL,Macro Made Meals,Chicago metro,Kendall Jo Goodwin,Founder & CEO,macromademeals.com,Med,Active,Women-owned macro meal prep,,unavailable
+IL,Madison & Rayne,Chicago,Josh Jones & Melanie Mityas,Co-Founders,madisonandrayne.com,High,Active,Local; Bucktown; founded 2013,,
+IL,Meal Village,Lisle,Ravi Ayyalaraju,Founder & CEO,mealvillage.com,High,Active,Local; Chicago suburbs,,
 IL,My Mighty Meals,Chicago,Kris Davia,Founder/Owner,mymightymeals.com,High,Active,Local; distinct from VA MightyMeals,,
 IL,MyoMeals,Chicago,Unverified,,myomealsprep.com,Med,Active,Local,,
-IN,HercuLean Meal Prep,Indianapolis,Ben & Nathan Canary,Co-Founders,herculeanmealprep.com,High,Active,Local; founded 2016; ships nationwide,,unavailable
-IN,Smile More Meal Prep,Fort Wayne,Terel Lynn,Owner/Founder,smilemoremealprep.com,High,Active,Local; since 2019,terel@smilemoremealprep.com,verified
-IN,Fresh Fork Meals,Bloomington,Stacy Thompson,Founder/Owner,freshforkmeals.com,High,Active,Local,,
+IL,Parkside Meal Prep,Schiller Park,Unverified,Founder/Chef,parksidemealprep.com,Med,Active,Local; GF/celiac-safe; opened 2022,,
+IL,Seattle Sutton's Healthy Eating,Ottawa,René Ficek,Owner & President,seattlesutton.com,High,Active,Founded 1985,,
+IL,Tovala,Chicago,David Rabie,Co-Founder & CEO,tovala.com,High,Active,Smart oven + meals; founded 2015,david@tovala.com,verified
 IN,Dishes by Dani,Evansville,Dani Schiffer,Owner/Chef,dishesbydanievv.com,High,Active,Local; founded 2018,,unavailable
 IN,Flexx Nutrition,Indianapolis,Unverified,Owner,flexxmealprep.com,Med,Active,Local,,
-KS,KITCH Meals,Prairie Village,Phillip Stewart & Braden Posey,Co-Founders,getkitch.com,High,Active,Local; membership,,
+IN,Fresh Fork Meals,Bloomington,Stacy Thompson,Founder/Owner,freshforkmeals.com,High,Active,Local,,
+IN,HercuLean Meal Prep,Indianapolis,Ben & Nathan Canary,Co-Founders,herculeanmealprep.com,High,Active,Local; founded 2016; ships nationwide,,unavailable
+IN,Honest Eats,Indianapolis,Anthony Warren,Founder/Chef,honesteats.shop,High,Active,Local; from-scratch; since 2018,,
+IN,RDeeming Nutrition,Indianapolis,Jourdan Paddock,Founder,rdeemingnutrition.com,High,Active,Local; RD; Indy/Carmel/Fishers,,
+IN,Smile More Meal Prep,Fort Wayne,Terel Lynn,Owner/Founder,smilemoremealprep.com,High,Active,Local; since 2019,terel@smilemoremealprep.com,verified
 KS,316 Meal Prep,Wichita,Unverified,,316mealprep.com,High,Active,Local; macro meals,,
 KS,Fyre LLC,Wichita,Unverified,,itsallfyre.com,High,Active,Local; catering + prep,,
+KS,KITCH Meals,Prairie Village,Phillip Stewart & Braden Posey,Co-Founders,getkitch.com,High,Active,Local; membership,,
+KS,Magic Kitchen,Lenexa,Greg Miller,CEO / Co-Founder,magickitchen.com,High,Active,Senior/diet meals; founded ~2005 (brief-flagged),greg@magickitchen.com,verified
 KS,Magic Meals,Topeka,Unverified,,mealslikemagic.com,High,Active,Local; distinct from Magic Kitchen,,
+KS,my99protein,Overland Park,Jake Truelove,Founder & Head Chef,my99protein.com,High,Active,Ships KS & MO,get99@my99protein.com,verified
+KY,Home Cuisine,Louisville,Sandy Pike,Founder / Owner,homecuisineonline.com,High,Active,Founded 2004,,unavailable
+KY,Jacked-Nutrition,Lexington,Jessica Jackson,CEO/Founder,jacked-nutrition.com,High,Active,Local; since 2019,jessica@jacked-nutrition.com,verified
 KY,Macroman Meals,Louisville,Pasha Volokh,Owner/Founder,macromanmeals.com,High,Active,Local; Louisville/Lexington,,
 KY,Prepping with Peppers,Louisville,Amber Peppers,Owner/Founder,preppingwithpeppers.com,High,Active,Local; est 2015,,unavailable
-KY,Jacked-Nutrition,Lexington,Jessica Jackson,CEO/Founder,jacked-nutrition.com,High,Active,Local; since 2019,jessica@jacked-nutrition.com,verified
 KY,Zilla Meals,Somerset,Jordan Adams,Owner/Founder,zilla-meals.com,High,Active,Local; statewide pickup + shipping,,
-LA,Fully Fit Meals,Baton Rouge,Amanda Vinet,Owner/Chef,fullyfitmeals.com,High,Active,Local,,
+LA,Chef Brandon's Boxes,Baton Rouge,Brandon LaBorde,Owner/Chef,chefbrandonsboxes.com,High,Active,Local,,
+LA,Clean Creations,Gretna,Barbara Bolotte Blank,Founder / Owner,cleancreations.com,High,Active,Founded ~2011; Gretna & Baton Rouge,,
+LA,Dinner Lab,New Orleans,Brian Bordainick,Founder & CEO,,High,Defunct,Suspended April 2016,,
 LA,Eat Fuel Fleurish,Lafayette,Kelsey Sanders,Founder/Owner,eatfuelfleurish.com,High,Active,Local,,
+LA,Fully Fit Meals,Baton Rouge,Amanda Vinet,Owner/Chef,fullyfitmeals.com,High,Active,Local,,
+LA,IONutrition,New Orleans,Unverified,,ionutrition.com,Low,Active,Local; since 2010; ships,,
+LA,Ingle Eats,Baton Rouge,Unverified,Owner,ingleeats.com,Low,Active,Local; family-style scratch meals,,
 LA,No Regrets Meal Prep,Shreveport,Lonnie & Keri Blansit,Owners,noregretsmealprep.com,High,Active,Local,,
 LA,Prepped Up Meals,Shreveport,Megan Ellis,Owner,preppedupmeals.com,High,Active,Local,,unavailable
-LA,Chef Brandon's Boxes,Baton Rouge,Brandon LaBorde,Owner/Chef,chefbrandonsboxes.com,High,Active,Local,,
+MA,Cape Cod Gourmet,Barnstable,Unverified,Owner,thecapecodgourmet.com,Med,Active,Local; Cape Cod RTE since 2023,,
 MA,Clandestine Kitchen,Kingston,Courtney Doyle,Founder/Owner,clandestinekitchen.com,High,Active,Local; South Shore,,
-MA,Tough Cookies,Stoughton,Allie & Mike Faherty,Co-founders,toughcookies.com,High,Active,Local; MA & RI,,
 MA,EatFit 24/7,Peabody,Ranfi Pena,Owner,eatfitfood247.com,Med,Active,Local; organic,,
 MA,EatFitz,Carver,Unverified,,eatfitz.com,Med,Active,Local; Boston/Cape Cod,,
-MD,Healthy Fresh Meals,Hyattsville,Shana Greenbaum,Founder & Owner,healthyfreshmeals.com,High,Active,Local; DMV,shana@healthyfreshmeals.com,verified
-MD,Vegetable + Butcher,Upper Marlboro,Turner Hoff,CEO,vegetableandbutcher.com,High,Active,Local; founded 2016,turner@vegetableandbutcher.com,verified
+MA,Food & Figure,Everett,Scott Caponi,Founder,foodandfigure.com,High,Active,Local; fitness/macro; founded 2014,,
+MA,Georgie & Tom's,Hopkinton,Georgina Wood & Tom Allchurch,Co-Founders,georgieandtoms.com,High,Active,Local; founded 2020; multi-state ship,,
+MA,Hard Body Meals,Haverhill,Scott Brandolini & Felisha St. Lawrence,Co-Owners,hardbodymeals.com,High,Active,Local; chef-driven fitness meals,,
+MA,Just Add Cooking,Somerville,Jan Leife,Founder & CEO,,High,Defunct,Ceased Nov 2018,,
+MA,Molly's Dinner Club,Arlington,Unverified,Owner,mollysdinnerclub.com,Med,Active,Local; Boston NW suburbs,,
+MA,Nutré,Peabody,Valentino Perrina,Co-Founder & CEO,gonutre.com,High,Active,Local; serves LI/NYC/New England; founded 2017,,
+MA,Purple Carrot,Needham,Daniel Goldstein,CEO,purplecarrot.com,High,Active,Plant-based; owned by Oisix; Goldstein appointed 2024,dgoldstein@thepurplecarrot.com,verified
+MA,The Pleasing Plate,Sandwich,Tina Harkin,Owner/Founder,thepleasingplate.com,Med,Active,Local; elderly/recovery meals,,
+MA,Tough Cookies,Stoughton,Allie & Mike Faherty,Co-founders,toughcookies.com,High,Active,Local; MA & RI,,
+MA,Wildgrain,Somerville,Ismail Salhi,Co-Founder & CEO,wildgrain.com,High,Active,Bake-from-frozen DTC; founded 2020,ismail@wildgrain.com,verified
 MD,Dinners At Your Door,Olney,Susie & Amer Nesh,Owners,dinnersatyourdoor.com,High,Active,Local; MD/N.VA/DC,,
+MD,Farm to Temple,Towson,Raven Temple,Founder / Owner,farmtotemple.com,High,Active,Organic; Baltimore & DMV,,
+MD,Healthy Fresh Meals,Hyattsville,Shana Greenbaum,Founder & Owner,healthyfreshmeals.com,High,Active,Local; DMV,shana@healthyfreshmeals.com,verified
 MD,NoorFit,Rockville,Unverified,Owner,noorfit.com,Med,Active,Local; halal,,
-ME,Topset Meals,Portland,Noah Tranton,Owner/Founder,topsetmeals.com,High,Active,Local; Greater Portland,,
-ME,The Maine Meal,Skowhegan,Mark & Kelly LaCasse,Co-owners,themainemeal.com,High,Active,Local; statewide frozen,,unavailable
+MD,Vegetable + Butcher,Upper Marlboro,Turner Hoff,CEO,vegetableandbutcher.com,High,Active,Local; founded 2016,turner@vegetableandbutcher.com,verified
 ME,Mad Mealz,Hollis,Madison Andrews,Owner/Founder,madmealz.com,High,Active,Local; launched 2025,,
-MI,Lake Effect Kitchen,Grand Haven,Mandy Anderson & Aaron Johnson,Co-Founders,lakeeffectkitchen.com,High,Active,Local; West MI,mandy.anderson@lakeeffectkitchen.com,verified
-MI,MenuBubble,Lansing,Rueben Hewitt,Founder & COO,menububble.com,High,Active,Local; founded 2018,,unavailable
-MI,The Michigan Meal Prep Company,Mount Clemens,Ryan Opatich,CEO,michiganmealprep.com,High,Active,Local,ryan@michiganmealprep.com,verified
+ME,Magno Terra Cafe,Portland,Toni Magno-Fish,Chef/Owner,magnoterra.com,Med,Active,Local; Greater Portland delivery,,
+ME,The Maine Meal,Skowhegan,Mark & Kelly LaCasse,Co-owners,themainemeal.com,High,Active,Local; statewide frozen,,unavailable
+ME,Topset Meals,Portland,Noah Tranton,Owner/Founder,topsetmeals.com,High,Active,Local; Greater Portland,,
 MI,Clean Plates Detroit,Ferndale,Unverified,,cleanplatesdetroit.com,Med,Active,Local; est 2015,,
+MI,Golden State Chef Co.,Royal Oak,Ryan & Lindsey Klink,Owners/Founders,goldenstatechefco.com,High,Active,Local; GF/DF; Metro Detroit; founded 2014,,
+MI,Lake Effect Kitchen,Grand Haven,Mandy Anderson & Aaron Johnson,Co-Founders,lakeeffectkitchen.com,High,Active,Local; West MI,mandy.anderson@lakeeffectkitchen.com,verified
+MI,Meal Prep by Cort,Detroit,Cortrice Boone,Owner/Founder,mealprepbycort.com,High,Active,Local; keto/pescatarian/plant-based,,
+MI,MenuBubble,Lansing,Rueben Hewitt,Founder & COO,menububble.com,High,Active,Local; founded 2018,,unavailable
+MI,Mi Meals,Royal Oak,Unverified,Owner,mealsmi.com,Med,Active,Local; macro-friendly; Royal Oak & Shelby Twp,,
+MI,Mindset Meals,Grandville,Eric Freeman,Founder/Owner,mindsetmeals.com,High,Active,Local; Grand Rapids; founded 2017,,
+MI,Miroh Meals,Bloomfield Township,Monica Notaro,Founder,mirohmeals.com,High,Active,Plant-based; Metro Detroit; founded 2018,,unavailable
+MI,Purposely Prepared,Detroit,Unverified,Founder/Chef,purposelyprepared.com,Med,Active,Local; launched 2020,,
+MI,The Michigan Meal Prep Company,Mount Clemens,Ryan Opatich,CEO,michiganmealprep.com,High,Active,Local,ryan@michiganmealprep.com,verified
+MN,Chef Neal's Healthy Meals,Lakeville,Unverified,Owner/Chef,chefnealshealthymeals.com,Med,Active,Local; Lakeville/Minneapolis,,
+MN,Healthy For Life Meals,New Hope,Stephanie Keegan,CEO & Founder,healthyforlifemeals.com,High,Active,Local; 25+ pickup sites; multi-state,,
 MN,Infuzn Foods,Pine Island,Bhaskar Iyengar,Co-Founder,infuznfoods.com,High,Active,Local; Indian-inspired veg; SE MN,,
-MN,Well Made Meal Prep,Olivia,Shay All Runner,Founder/CEO,wellmademealprep.com,High,Active,Local; SW/central MN,,
-MN,Rowan & Dough,Saint Paul,Natalie Allesee,Founder/Owner,rowandough.com,Med,Active,Local; Twin Cities,natalie@rowandough.com,verified
+MN,Let's Dish!,Minneapolis,Unverified,,,Med,Uncertain,Meal-assembly co. founded 2003,,
 MN,Macro Meal Prep MN,Saint Paul,Unverified,,macromealprepmn.com,Med,Active,Local; Twin Cities,,
-MO,Meal Preps 4 Fuel,Kansas City,Jazmin Bustillos & Manuel Rivas,Co-owners,mealpreps4fuel.com,High,Active,Local; veteran-owned,,
+MN,Rowan & Dough,Saint Paul,Natalie Allesee,Founder/Owner,rowandough.com,Med,Active,Local; Twin Cities,natalie@rowandough.com,verified
+MN,Well Made Meal Prep,Olivia,Shay All Runner,Founder/CEO,wellmademealprep.com,High,Active,Local; SW/central MN,,
+MN,tandoco,Minneapolis,Unverified,Co-Founders,tandoco.com,Med,Active,Local; high-protein; Twin Cities,,
+MO,Conveniently Nourished KC,Kansas City,Bethany (surname unverified),Owner,convenientlynourishedkc.com,Med,Active,Local,,
+MO,Feed Your Vitality,St. Louis,Ashley Nanney,Owner/Founder,feedyourvitality.com,Med,Active,Local; anti-inflammatory/AIP,,
+MO,Fit Fresh 417,Springfield,Nathan & Naomi Frazo,Co-owners,fitfresh417.com,High,Active,Local; founded 2023,,
+MO,FitFlavors,St. Louis,Jillian Tedesco,Founder/CEO,fit-flavors.com,High,Active,Local; founded 2009; storefronts + delivery,,
+MO,Fitstyle Foods,Kansas City,Jessica McLeod,Founder,fitstylefoods.com,Low,Active,KC meal prep,,unavailable
+MO,FlexPro Meals,Kansas City,Nathan Corn,President & Founder,flexpromeals.com,High,Active,National ready-to-eat; bootstrapped,nathan@flexpromeals.com,verified
 MO,Healthy Meals Inc.,Kansas City,Scott Kluck,Owner,healthymealsinc.com,High,Active,Local; since 2009,scott@healthymealsinc.com,verified
 MO,Koda's Fit Kitchen,Boonville,Dakota Owens,Owner/Chef,kodasfitkitchen.com,High,Active,Local; serves Columbia,,
-MO,Fit Fresh 417,Springfield,Nathan & Naomi Frazo,Co-owners,fitfresh417.com,High,Active,Local; founded 2023,,
-MO,Conveniently Nourished KC,Kansas City,Bethany (surname unverified),Owner,convenientlynourishedkc.com,Med,Active,Local,,
+MO,Lean Kitchen Company,St. Joseph,Austin Evans,Founder & CEO,leankitchenco.com,High,Active,Macro meal-prep franchise,,
+MO,Meal Preps 4 Fuel,Kansas City,Jazmin Bustillos & Manuel Rivas,Co-owners,mealpreps4fuel.com,High,Active,Local; veteran-owned,,
+MO,Victorious Foods,St. Louis,Victoria McCoy,Founder/CEO,victoriousfoods.com,High,Active,Local; fresh + frozen,,
+MS,Advanced Meal Prep,Biloxi,Unverified,,advancedmealprep.com,Med,Active,MS Gulf Coast; LLC 2019,,
 MS,Fit Chef Catering,Vicksburg,Kevin Roberts,Founder/Chef,fitchefms.com,High,Active,Local; multiple MS stores,,
-MS,Prep by KUG,Ocean Springs,Kristin Uribe Grizzard,Owner,prepbykug.com,High,Active,Local; Gulf Coast; since 2015,,
 MS,Kitchen Sisters Meal Prep,Pascagoula,Blair Purdy & Hayley Espey,Owners,kitchensistersmealprep.com,High,Active,Local; Gulf Coast,,
-MT,Whole and Nourished,Bozeman,Heather Babineau-Z,Owner/Founder,wholeandnourished.com,High,Active,Local; founded 2017,,
+MS,Prep by KUG,Ocean Springs,Kristin Uribe Grizzard,Owner,prepbykug.com,High,Active,Local; Gulf Coast; since 2015,,
+MS,Stud Muffins,Southaven,Molly Beth & Trey Jolly,Co-Owners,studmuffinsonline.com,High,Active,Local; Memphis metro + DeSoto Co,,
 MT,Montana Meal Prep,Billings,Kalen & Annie (surnames unverified),Co-owners,montanamealprep.com,High,Active,Local; launched 2024,,
 MT,Orders Up Delivery,Bozeman,Danielle Miller,Owner/Chef,ordersupdelivery.com,High,Active,Local; Gallatin Valley,,
 MT,True Food Missoula,Missoula,Unverified,Owner,truefoodcsa.com,Med,Active,Local,,
-NC,Thymely Meals,Raleigh,Eric Johnson,Owner/Chef,thymelymeals.com,High,Active,Local; plant-forward,,
+MT,Whole and Nourished,Bozeman,Heather Babineau-Z,Owner/Founder,wholeandnourished.com,High,Active,Local; founded 2017,,
+NC,Carolina Gourmet,Charlotte,Peter Olsacher,Chef/Owner,carolinagourmet.com,Med,Active,Local; chef-curated prepared meals,,
+NC,Clean Eatz,Wilmington,Eric Wyatt,CEO,cleaneatz.com,High,Active,Franchise 112+ locations; founders Don & Evonne Varady,eric.wyatt@thejoint.com,verified
 NC,Donovan's Dish to Door,Apex,Jill Donovan,Owner,dishtodoor.com,High,Active,Local; Raleigh metro,jill@donovansdish.com,verified
-NC,Tastefully Served,Raleigh,Meredith (surname unverified),Owner/Chef,tastefully-served.com,Med,Active,Local,,
+NC,Feel Good Meals NC,Charlotte,Unverified,Founder/Chef,feelgoodmealsnc.com,Med,Active,Local; Ant's Kitchen venture,,
+NC,Healthy Chef Steph,Charlotte,Stephanie McPherson,Founder/Chef,healthychefsteph.com,High,Active,Local; never-frozen,,
+NC,Maple Meal Prep,Charlotte,Kate Kingsley,Founder/Head Chef/Owner,maplemealprep.com,High,Active,Local; woman-owned; from-scratch,,
 NC,Table & Twine,Charlotte,Unverified,,tableandtwine.com,Med,Active,Local,,
-ND,Power Plate Meals,West Fargo,Haylee & Seth Houkom,Co-owners,powerplatemeals.com,High,Active,Local; ~9 retail; ships nationwide,hhoukom@powerplatemeals.com,verified
-ND,Modern Table,Fargo,Morgan Aubol,Owner,moderntablend.com,High,Active,Local; formerly Joyfully Fed,,unavailable
-ND,Prepped LLC,Minot,Kayla Long,Owner/Founder,preppedllc.com,High,Active,Local; started 2023,,
+NC,Tastefully Served,Raleigh,Meredith (surname unverified),Owner/Chef,tastefully-served.com,Med,Active,Local,,
+NC,The Good Kitchen,Charlotte,Amber Lewis,Founder / CEO,thegoodkitchen.com,High,Active,Paleo/keto/Whole30; founded 2011,amber@drinkslacka.com,verified
+NC,Thymely Meals,Raleigh,Eric Johnson,Owner/Chef,thymelymeals.com,High,Active,Local; plant-forward,,
 ND,MegFitt,Bismarck,Maggie (surname unverified),Owner,megfitt.com,High,Active,Local; macro-focused,,
+ND,Modern Table,Fargo,Morgan Aubol,Owner,moderntablend.com,High,Active,Local; formerly Joyfully Fed,,unavailable
+ND,Power Plate Meals,West Fargo,Haylee & Seth Houkom,Co-owners,powerplatemeals.com,High,Active,Local; ~9 retail; ships nationwide,hhoukom@powerplatemeals.com,verified
+ND,Prepped LLC,Minot,Kayla Long,Owner/Founder,preppedllc.com,High,Active,Local; started 2023,,
 ND,Ready Strong Meals,Bismarck,Unverified,Owner,readystrongmeals.com,Med,Active,Local; subscription,,
-NE,MEALBOX Omaha,Omaha,Will Birge,Owner/Chef,mealboxomaha.com,High,Active,Local; since 2018,,
 NE,Clean Slate Food Co.,Omaha,Unverified,,cleanslatefoodco.com,High,Active,Local; plant-based + omnivore,,
-NE,Venue at Home,Lincoln,Unverified,,prgnebraska.com,High,Active,Local; PILLAR Restaurant Group,,
+NE,Eat Fit Go,Omaha,Erik Bird,President / CEO,eatfitgo.com,Med,Active,Founded 2016; Brock Hubert also cited,,
+NE,MEALBOX Omaha,Omaha,Will Birge,Owner/Chef,mealboxomaha.com,High,Active,Local; since 2018,,
 NE,Meels,Lincoln,Unverified,,meels.com,Med,Active,Local; never-frozen,,
-NH,All Real Meal,Manchester,Kasia Lojko & Sonia Farris,Co-Owners,allrealmeal.com,High,Active,Local; since 2013,,
+NE,Venue at Home,Lincoln,Unverified,,prgnebraska.com,High,Active,Local; PILLAR Restaurant Group,,
 NH,603 Meal Prep,Concord,Susan Chung,Owner/Founder,603mealprep.com,High,Active,Local; never-frozen,,
-NH,PrepGods,Derry,Jake Hahnl,Owner/Founder,theprepgods.com,High,Active,Local; same-day fresh,,unavailable
+NH,All Real Meal,Manchester,Kasia Lojko & Sonia Farris,Co-Owners,allrealmeal.com,High,Active,Local; since 2013,,
 NH,HomeGrown Eats,Rollinsford,Maria Vintila & Ron Sparks,Co-Owners,nhhomegrowneats.com,Med,Active,Local; Seacoast NH,,
+NH,Meal Prep Chef NH,Portsmouth,Angela Castrigno,Owner/Chef,mealprepchefnh.com,High,Active,Local; Seacoast NH,,
+NH,PrepGods,Derry,Jake Hahnl,Owner/Founder,theprepgods.com,High,Active,Local; same-day fresh,,unavailable
+NJ,Chefs on the Go NJ,Wayne,Michele De Rogatis,Owner/Operator,chefsonthegonj.com,High,Active,Local; Bergen/Passaic/Essex/Morris,,
+NJ,Clean Eats Meal Prep,Secaucus,Noah Pellegrini & David Rivera,Co-Founders,cleaneatsmealprep.com,High,Active,Local; founded 2015; multi-state ship,,
+NJ,Coronato's Clean Cuisine,Brick Township,Christian Coronato,Owner & Chef,coronatoscleancuisine.com,High,Active,Local,askthechef@coronatoscleancuisine.com,verified
+NJ,Eat Clean Bro,Freehold,Jamie Giovinazzo,President & Founder,eatcleanbro.com,High,Active,Founded 2013; NJ + Atlanta kitchens,jamie@eatcleanbro.com,verified
+NJ,Fuel Chef,Newark,Unverified,Owner/Chef,fuelchef.com,Med,Active,Local; Essex/Bergen/Hudson,,
+NJ,Graze and Braise,Jersey City,Ayaz Adiguzelli,Founder,grazeandbraise.com,High,Active,Local; paleo/organic; Hudson Co,,
+NJ,MacroBites,Asbury Park,Jarrette Atkins,Co-Founder/CEO,macrobites.com,High,Active,Local; founded 2019; Black-owned RTE,,
 NJ,Made Meals,Kearny,Jesse McBride,Founder,mademeals.co,High,Active,Local; founded 2019,jesse@mademeals.co,verified
 NJ,NJ Gourmet Meal Prep,Fair Lawn,Mychal Rivera,Owner/Founder,mynjgourmet.com,High,Active,Local; ~14 counties,,
-NJ,Coronato's Clean Cuisine,Brick Township,Christian Coronato,Owner & Chef,coronatoscleancuisine.com,High,Active,Local,askthechef@coronatoscleancuisine.com,verified
 NJ,Nourish to Heal,Clinton,Nicole & Anthony Piazza,Owners,nourishtoheal.com,High,Active,Local; Central NJ,,unavailable
+NJ,Nutrition Kitchen,Central NJ,Alison Douglas,Chef/Owner,nutritionkitch.com,Med,Active,Local; CrossFit-athlete founder,,
+NJ,Prevail Nutrition,Absecon,Unverified,Owner,prevailnutrition.club,Med,Active,Local; South Jersey,,
 NJ,Spartan Meal Preps,Lodi,Unverified,Owner,spartanmealpreps.com,Med,Active,Local,,
+NJ,Tough Love Meal Prep,Newark,Unverified,Owner,toughlovemealprep.com,Low,Active,Local; NJ macro meal prep,,
 NM,Eat Fit by Nohime,Albuquerque,Nohime Dennisson,Owner/Founder,eatfitdelivery.com,High,Active,Local; ABQ + Rio Rancho,,
-NM,iLL Chino Meal Service,Albuquerque,Richard Silva,Owner/Founder,illchinomeals.com,High,Active,Local; macro-based,,
-NM,Simply Fresh Co,Las Cruces,Chris Baca & Mike Gray,Co-Owners,simplyfreshco.com,High,Active,Local; rebranded from AIM Fit Meals,,unavailable
 NM,FitMania Meals,Santa Fe,Palden Digkhang,Owner/Founder,fitmaniameals.com,High,Active,Local; since 2019,,
-NV,Foodie Fit,Las Vegas,Andrew Kowal,Founder,foodiefit.com,Med,Active,Local; Inc 5000 2024,,
-NV,Fit Meals 4U,Las Vegas,Joseph Recht,Managing Member,fitmeals4u.net,Med,Active,Local,,unavailable
+NM,Macros Made Easy,Los Alamos,Samantha Orner & Matthew Scarborough,Co-Founders,macrosmadeeasy.net,High,Active,Local; macro-balanced; Santa Fe/Los Alamos,,
+NM,Simply Fresh Co,Las Cruces,Chris Baca & Mike Gray,Co-Owners,simplyfreshco.com,High,Active,Local; rebranded from AIM Fit Meals,,unavailable
+NM,iLL Chino Meal Service,Albuquerque,Richard Silva,Owner/Founder,illchinomeals.com,High,Active,Local; macro-based,,
+NV,702 Prep,Las Vegas,Noah Carter,Co-Founder / Owner,702prep.com,Med,Active,Founded 2017,,
+NV,Dero Meal Prep,Reno,Sean deRubertis,Owner & CEO,deromealprep.com,High,Active,Local; Northern NV; founded 2020,,
 NV,End Goal Meals,Las Vegas,Unverified,,endgoal.win,Med,Active,Local; storefront + drive-thru,,
-NY,Redefine Meals,Bay Shore,Matthew Riss & Mark Ciaburri,Co-Founders,redefinemeals.com,High,Active,Local; Long Island,,
+NV,Fit Meals 4U,Las Vegas,Joseph Recht,Managing Member,fitmeals4u.net,Med,Active,Local,,unavailable
+NV,Foodie Fit,Las Vegas,Andrew Kowal,Founder,foodiefit.com,Med,Active,Local; Inc 5000 2024,,
+NY,716 Fresh,Orchard Park,Corey Pepero,Founder/Owner,716fresh.com,High,Active,Local; Buffalo/WNY; founded 2016,,
+NY,9 Miles East Farm,Schuylerville,Gordon Sacks,Founder/Owner,9mileseast.com,Med,Active,Local; Capital Region farm meals,,
+NY,Annie's Homemade Healthy Meals,Brewster,Christiane Stamp,Founder/Owner,annieshomemade.com,Med,Active,Local; Westchester/Putnam,,
 NY,Beast Village Meal Prep,Long Island City,Deane Bigay,Founder,beastvillagemealprep.com,High,Active,Local; all 5 boroughs,,unavailable
+NY,Big Tony's Meal Prep,Albany,Unverified,Owner,bigtonysmealprep.com,Med,Active,Local; Capital Region,,
+NY,Blue Apron,New York,Marc Lore (Wonder Group),,blueapron.com,Med,Active,Acquired by Wonder Group 2023; no standalone CEO,,
+NY,Buffalo Fitness Meal Prep,Buffalo,Rhydell Griffin,Owner,buffalofitnessandnutrition.com,Med,Active,Local; Buffalo,,
+NY,CookUnity,Brooklyn,Mateo Marietti,Co-Founder & CEO,cookunity.com,High,Active,Chef-to-consumer marketplace; founded 2015,mateom@cookunity.com,verified
+NY,Daily Harvest,New York,Ricky Silver,CEO,daily-harvest.com,High,Active,Acquired by Chobani 2025,ricky@daily-harvest.com,verified
+NY,Dinnerly,New York,Marley Spoon Group,,dinnerly.com,Med,Active,Marley Spoon value brand,,
+NY,Effortlessly Healthy,Rochester,Shaina Sidoti,Founder/Owner,effortlesslyhealthy.com,High,Active,Local; woman-owned; founded 2013,,
+NY,Epicured,Glen Cove,Richard Bennett,Co-Founder & CEO,epicured.com,High,Active,Low-FODMAP; founded 2016,,unavailable
+NY,EveryPlate,New York,Uwe Voss (HelloFresh NA),,everyplate.com,Low,Active,HelloFresh value brand,,
 NY,Fresh N Fit Meals,Rocky Point,Mike (surname unverified),Owner,fnfmeals.com,Med,Active,Local; Long Island,,
+NY,Freshly,New York,Michael Wystrach,Founder,,High,Defunct,Acquired by Nestlé 2020; shut Jan 2023,,
 NY,Healthy Meals Direct,West Babylon,Unverified,Owner,healthymealsdirect.com,Med,Active,Local; Long Island,,
+NY,HelloFresh US,New York,Uwe Voss,CEO North America,hellofresh.com,High,Active,US arm of HelloFresh SE (Group CEO Dominik Richter),uwe@hellofresh.com,verified
+NY,Hudson Meal Co,Kinderhook,James Mannix,Founder/Chef,hudsonmealco.com,High,Active,Local; farm-to-table; founded 2023,,
+NY,Hungryroot,New York,Benjamin McKean,Founder & CEO,hungryroot.com,High,Active,AI-personalized grocery + meals,ben@hungryroot.com,verified
 NY,Long Island Fit Meals,Amityville,Unverified,Owner,longislandfitmeals.com,Med,Active,Local,,
-OH,Fit Fresh Fast,Columbus,Jon Paton,Owner/Founder,fitfreshfast.com,High,Active,Local,jonpaton@fitfreshfast.com,verified
-OH,luxe + lemons,Columbus,Katherine Brown,Founder/CEO,luxeandlemons.com,High,Active,Local,katherine@luxeandlemons.com,verified
-OH,Zero Doubt Kitchen,Cleveland,Inga Golubitsky,Founder/Owner,zerodoubtkitchen.com,High,Active,Local; woman-owned,inga@zerodoubtclub.com,verified
-OH,Heirloom Chef,Cincinnati,Jackie Djordjevic,Owner/Chef,heirloomchefcincy.com,High,Active,Local,,unavailable
+NY,Maple,New York,Caleb Merkl,Co-Founder & CEO,,High,Defunct,Ceased May 2017,,
+NY,Marley Spoon / Martha Stewart & Marley Spoon,New York,Dr. Daniel Koch,Interim CEO (parent),marleyspoon.com,High,Active,Parent in Berlin; interim CEO from June 2026,,unavailable
+NY,Meals by DeLeo,Rochester,Jason DeLeo,Owner/Chef,mealsbydeleo.com,Med,Active,Local; Rochester metro,,
+NY,Mindful Meals To Go,Albany,Unverified,Owner,mindfulmeals-togo.com,Med,Active,Local; Capital Region since 2015,,
+NY,Mosaic Foods,Brooklyn,Matt Davis,CEO & Co-Founder,mosaicfoods.com,Med,Active,Frozen plant-based; founded 2019,,
+NY,My Cuistot,Brooklyn,Unverified,Founder,mycuistot.com,Low,Active,Local; Brooklyn ops,,
+NY,NYC Cooking Club,Astoria,Unverified,Owner,nyccookingclub.com,Med,Active,Local; high-protein; all boroughs,,
+NY,NYC Meal Prep,New York,Unverified,Owner,nycmealprep.com,Low,Active,Local; all 5 boroughs,,
+NY,Plated,New York,Josh Hix & Nick Taranto,Founders,,High,Defunct,Acquired by Albertsons 2017; shut Nov 2019,,
+NY,Provenance Meals,Brooklyn,Caroll Lee,Founder & CEO,provenancemeals.com,High,Active,Clean/functional-medicine meals,clee@provenancemeals.com,verified
+NY,RealEats,Geneva,Dan Wise,Founder & CEO,realeats.com,High,Defunct,Shut down ~March 2023,,
+NY,Redefine Meals,Bay Shore,Matthew Riss & Mark Ciaburri,Co-Founders,redefinemeals.com,High,Active,Local; Long Island,,
+NY,Sakara Life,New York,Henry Davis,CEO,sakara.com,High,Active,Organic plant-based,henry@whitestarcapital.com,verified
+NY,Sedjedo's Kitchen,Queens,Unverified,Owner,sedjedo.com,Low,Active,Local; vegan; Queens/Bklyn/LI,,
+NY,Splendid Spoon,Brooklyn,Nicole Centeno & Elise Densborn,Founder & Co-CEO / Co-CEO,splendidspoon.com,High,Active,Plant-based,nicole@splendidspoon.com,verified
+NY,Top Chef Meals,Elmsford,Paul Ghiron,Founder & President,topchefmeals.com,High,Active,Senior/diabetic/renal,paul@topchefmeals.com,verified
+NY,Yes Foods,Kingston,Scott & Kelly Nadler,Co-Founders,yesfoodswoodstock.com,High,Active,Local; Hudson Valley organic,,
+OH,360 Fitness Meals,Columbus,Joshua DeBerry,Owner/Founder,360fitnessmeals.com,High,Active,Local; never-frozen; founded 2015,,
+OH,Center Hub Meal Prep,Cincinnati,Mike Mercer,Owner,centerhubmealprep.com,Med,Active,Local; downtown Cincinnati,,
 OH,Dished!,Dayton,Katie Easton,Owner/Founder,get-dished.com,High,Active,Local; founded 2020,katie@get-dished.com,verified
-OK,FreshFit405,Oklahoma City,Sarah Vanahn,Owner/Founder,freshfit405.com,High,Active,Local; OKC metro,,
-OK,Prep'd,Yukon,Jason Lee,Founder/Owner,prepd.com,High,Active,Local; OKC + Tulsa,,
+OH,Family Thyme Kitchen,Cincinnati,Emma Werle & Heidi Lancaster,Co-Founders,familythymekitchen.com,High,Active,Local; meal kits + pre-made; launched 2018,,
+OH,Fit Fresh Fast,Columbus,Jon Paton,Owner/Founder,fitfreshfast.com,High,Active,Local,jonpaton@fitfreshfast.com,verified
+OH,Heirloom Chef,Cincinnati,Jackie Djordjevic,Owner/Chef,heirloomchefcincy.com,High,Active,Local,,unavailable
+OH,Hummus Fit,Columbus,Tony & Liana Mavruk,Co-Founders / Owners,myhummusfit.com,Med,Active,Mediterranean meal prep,,
+OH,Keeney's Kitchen,Columbus,Matt & Brooke Keeney,Owners/Founders,keeneyskitchencbus.com,High,Active,Local; founded 2022,,
+OH,Meals Made Easy,Cleveland,Sediah Hamzah,Founder/Owner,mealsmadeeasycle.com,Med,Active,Local; Black-owned; founded 2016,,
+OH,Sprinly,Cleveland,Ray Lui & Mary McCann,Co-Founders / Co-CEOs,sprinly.com,High,Active,Organic plant-based; founded 2016,ray@sprinly.com,verified
+OH,UNREFINED,Cleveland,Ameer Hassan,Co-Founder & CEO,unrefinedmeals.com,High,Active,Local; downtown Cleveland; founded 2021,,
+OH,Zero Doubt Kitchen,Cleveland,Inga Golubitsky,Founder/Owner,zerodoubtkitchen.com,High,Active,Local; woman-owned,inga@zerodoubtclub.com,verified
+OH,luxe + lemons,Columbus,Katherine Brown,Founder/CEO,luxeandlemons.com,High,Active,Local,katherine@luxeandlemons.com,verified
+OK,Aesthetic Meal Prep,Tulsa,Unverified,,aestheticmealprep.com,Med,Active,Local; portion-controlled; since 2016,,
 OK,Develyn Catering & Meal Prep,Oklahoma City,Evelyn Aniebok,Founder/Owner,develynllc.com,High,Active,Local,,unavailable
+OK,FreshFit405,Oklahoma City,Sarah Vanahn,Owner/Founder,freshfit405.com,High,Active,Local; OKC metro,,
 OK,Mae'd Meal Prep,Tulsa,Kalee Kallam,Owner/Operator,maedtoorder.com,High,Active,Local; Tulsa area,,
-OR,PDX Meal Prep,Portland,Jean Gutierrez,Founder & CEO,pdxmealprep.com,High,Active,Local; since 2015,jean@pdxmealprep.com,verified
-OR,Full Belly Fare,Portland,Lyla Wolfenstein,Chef-Owner,fullbellyfare.com,High,Active,Local; GF/celiac-safe,lyla@assistancedogsofthewest.org,verified
+OK,Oklahoma City Meal Prep,Oklahoma City,Unverified,,oklahomacitymealprep.com,Med,Active,Local OKC delivery,,
+OK,Prep'd,Yukon,Jason Lee,Founder/Owner,prepd.com,High,Active,Local; OKC + Tulsa,,
+OK,Vitality OKC,Oklahoma City,Tammy Briscoe,Owner,vitalityokc.com,High,Active,Local; macro/low-carb/vegetarian,,
+OR,All In Meals,Portland,Unverified,Owner,allinmeals.com,Low,Active,Portland/Salem/Eugene/Vancouver,,
 OR,Elephants Delicatessen,Portland,Unverified,,elephantsdeli.com,Med,Active,Local; deli + delivery,,
-PA,Performance Meal Prep,Philadelphia,Jesse Batt,Founder,eatpmp.com,High,Active,Local; Philly/S.NJ/DE,jesse@eatpmp.com,verified
+OR,Erin's Table,Eugene,Unverified,Founder/Owner,erins-table.com,Med,Active,Local; made-to-order meal kits,,
+OR,Full Belly Fare,Portland,Lyla Wolfenstein,Chef-Owner,fullbellyfare.com,High,Active,Local; GF/celiac-safe,lyla@assistancedogsofthewest.org,verified
+OR,Ivy's Cookin',Eugene,Ivy Cotler,Founder/Owner,ivyscookin.com,High,Active,Local; vegetarian since 1992,,
+OR,LiveGreens PDX,Portland,Unverified,Owner,livegreenspdx.com,Low,Active,Local; weekly meal prep,,
+OR,PDX Meal Prep,Portland,Jean Gutierrez,Founder & CEO,pdxmealprep.com,High,Active,Local; since 2015,jean@pdxmealprep.com,verified
+PA,Be WellFed,Philadelphia,Adrianna Hecht & Laurenza Giosa,Co-Founders / Owners,bewellfed.net,High,Active,Sister-owned; gluten/dairy-free,adrianna@bewellfed.net,verified
 PA,Case Specific Meal Prep,Pittsburgh,Vince Ranalli,Owner,csmppgh.com,High,Active,Local; dietitian-designed,,unavailable
-PA,Reap Wellness,Philadelphia,Adjua Fisher & Zach Rice,Co-Founders,reapwellness.com,High,Active,Local; Fishtown,,unavailable
+PA,Home Appétit,Philadelphia,Lee Wallach,Founder / Owner,homeappetitphilly.com,High,Active,Founded 2014; PA/NJ/DE,lee@homeappetitphilly.com,verified
 PA,Homemade By Colleen,Pittsburgh,Colleen (surname unverified),Owner,homemadebycolleen.com,Med,Active,Local; Pittsburgh metro,,
+PA,Nutrisystem,Fort Washington,Stephen Mikulak,President,nutrisystem.com,Med,Active,Brand of Wellful Inc. (CEO Brandon Adcock),smikulak@nutrisystem.com,verified
+PA,Performance Meal Prep,Philadelphia,Jesse Batt,Founder,eatpmp.com,High,Active,Local; Philly/S.NJ/DE,jesse@eatpmp.com,verified
+PA,Pittsburgh Fresh,Pittsburgh,Ling Wollenschlaeger,Founder/Owner,pghfresh.com,High,Active,Local; fresh local prepared meals,,
+PA,Reap Wellness,Philadelphia,Adjua Fisher & Zach Rice,Co-Founders,reapwellness.com,High,Active,Local; Fishtown,,unavailable
 PA,Root To Fruit,Philadelphia,Josh Broder,Founder/Chef,roottofruitphl.com,Med,Active,Local; plant-based,,unavailable
-RI,Feast & Fettle,East Providence,Carlos Ventura Jr.,CEO,feastandfettle.com,High,Active,Local; founder Maggie Mulvena Pearson; ~12k subs,carlos@feastandfettle.com,verified
 RI,Bites By Bre,Providence,Bre Goldsmith,Founder/Owner,bitesbybre.com,High,Active,Local; founded 2015,bre@bitesbybre.com,verified
-RI,SoCo Vedge,Narragansett,Dean & Julie Couchey,Co-owners,socovedgeri.com,High,Active,Local; vegan,,
+RI,Feast & Fettle,East Providence,Carlos Ventura Jr.,CEO,feastandfettle.com,High,Active,Local; founder Maggie Mulvena Pearson; ~12k subs,carlos@feastandfettle.com,verified
 RI,Savory Fare,East Providence,Mary Wise Hughes,Founder/Owner,savoryfaremeals.com,High,Active,Local; single-serving,,
+RI,SoCo Vedge,Narragansett,Dean & Julie Couchey,Co-owners,socovedgeri.com,High,Active,Local; vegan,,
+RI,VP Meals,Providence,Unverified,Owner,vpmeals.com,Med,Active,Local; since 2015,,
+SC,212 Meal Prep,Conway,Jeffrey Jensen,Co-Founder,212meals.com,High,Active,Horry County; Carolinas pickup,,
 SC,Atlyss Food Co,North Charleston,Jenny Gaddy,Founder,atlyssfoodco.com,High,Active,Local; since 2019,jenny@atlyssfoodco.com,verified
-SC,The Healthy Palate,Charleston,Chris Keck,Chef/Owner,charlestonhealthypalate.com,High,Active,Local,,
+SC,Chef Anthony GVL,Greenville,Unverified,Chef/Owner,chefanthonygvl.com,Med,Active,Local; customizable weekly prep,,
 SC,Cola Gourmet,Columbia,Keith Campbell,Founder/Chef,colagourmet.com,High,Active,Local; Columbia/Lexington,,
+SC,Eating Clean Prepared,North Charleston,Unverified,Owner/Chef,eatingcleanprepared.com,Med,Active,Local; custom chef-prepared,,
+SC,HM Meal Prep,Greenville,Unverified,Owner,hmmealprep.com,Med,Active,Local; veteran-owned; Upstate SC,,
+SC,The Healthy Palate,Charleston,Chris Keck,Chef/Owner,charlestonhealthypalate.com,High,Active,Local,,
 SD,Dialed In Nutrition,Sioux Falls,Sara & Shea Geelan,Co-owners,dinmeals.com,High,Active,Local; founded 2017,,unavailable
 SD,Fitting Meals,Rapid City,Dalton Kassube,Owner,fittingmeals.com,High,Active,Local; since 2022,,
 SD,FoodEase Meals,Rapid City,Brandon Sjolund,Owner/Cook,,High,Active,Local; frozen vacuum-sealed; FB only,,
 SD,Ruthann's Family Meals,Sioux Falls,Ruthann Patterson,Owner,,Med,Active,Local; family meals,,
-TN,Eat Well Nashville,Nashville,Chris Ricci,CEO,eatwellnashville.com,High,Active,Local; founded 2016 (related to Vibrant Meals lineage),chris@ancestralsupplements.com,verified
 TN,Amplified Meal Prep,Cordova,Richard & Molly McCracken,Owners,eatamplified.com,High,Active,Local; Memphis area,,
-TN,Fresh Southern Chef,Spring Hill,Joshua McClintock,Owner/Chef,freshsouthernchef.com,High,Active,Local; Nashville suburbs,,
 TN,Dinner Belle,Nashville,Laura Axelson,Founder/Owner,dinnerbellenashville.com,High,Active,Local; gluten-free,,
-TX,Map Meals,Frisco,Derek Derbigny Jr. & Tre Childs,Co-Founders,mapmeals.com,High,Active,Local; DFW,,
-TX,ICON Meals,Farmers Branch,Todd Abrams,CEO/Co-Founder,iconmeals.com,High,Active,Local; DFW + retail; ships,todd@iconmeals.com,verified
-TX,Punch Drunk Chef,Dallas,Brad Miller,Founder/Owner/Chef,pdcmealprep.com,High,Active,Local; since 2018,,
-TX,Zedric's,San Antonio,Zach Lutton,Founder/Chef-Owner,zedrics.com,High,Active,Local; since 2010,zach@zedrics.com,verified
-TX,Houston Meal Prep,Houston,Unverified,Chef-Owners,houstonmealprep.com,Med,Active,Local,,
+TN,Eat Well Nashville,Nashville,Chris Ricci,CEO,eatwellnashville.com,High,Active,Local; founded 2016 (related to Vibrant Meals lineage),chris@ancestralsupplements.com,verified
+TN,Fresh Southern Chef,Spring Hill,Joshua McClintock,Owner/Chef,freshsouthernchef.com,High,Active,Local; Nashville suburbs,,
+TN,Julles Posh Food Co,Memphis,Unverified,Owner,jullesposhfood.com,Low,Active,Local; heat-and-eat + grab-and-go,,
+TN,Oh Grate!,Collierville,Amy Bingham & Courtney Jones,Co-Owners,oh-grate.com,High,Active,Local; Memphis metro + N MS; retail + delivery,,
+TN,Vibrant Meals,Nashville,Marco S. Biscarini,Co-Founder & CEO,myvibrantmeals.com,High,Active,2024 Inc. 5000; formerly Eat Well Nashville,,unavailable
+TN,iPrep4u,Knoxville,Unverified,Founder/Owner,iprep4u.com,Med,Active,Local; custom macro plans,,
+TX,A List Nutrition,Dallas,Alexandria Kay,Founder,alistendeavors.com,High,Active,Local; high-protein DFW delivery,,
+TX,Diet Gourmet,Dallas,Donna Leonard,President,dietgourmet.com,Low,Defunct,Appears inactive,,
+TX,Eats By Jaxon,Austin,Jaxon Narramore,Founder/Owner,eatsbyjaxon.com,High,Active,Local; since 2021,,
+TX,FITGRILL,McAllen,Renato Nunez,Owner/Founder,fitgrill.fit,High,Active,Local; high-protein RGV; founded 2019,,
+TX,Farley's Fit Kitchen,Spring,Chelsea Farley,Owner,farleysfitkitchen.com,High,Active,Local; storefront + delivery; opened 2018,,
 TX,Fit Kitchen TX,Austin,Unverified,Owner,fitkitchentx.com,Med,Active,Local,,
-UT,NUR Kitchen,Salt Lake City,Carlos (surname unverified),Owner/Founder,nurkitchenslc.com,Med,Active,Local; since 2020,,
+TX,Fork to Fit Kitchen,McAllen,Alex Velasco,CEO & Co-Founder,forktofitkitchen.com,High,Active,Local; 10 RGV locations,,
+TX,Front Porch Pantry,Carrollton,Michaelann Dykes,Founder & Managing Partner,frontporchpantry.com,High,Active,Local; ships 50k+ meals/mo TX/OK/AR/LA,,
+TX,Houston Meal Prep,Houston,Unverified,Chef-Owners,houstonmealprep.com,Med,Active,Local,,
+TX,ICON Meals,Farmers Branch,Todd Abrams,CEO/Co-Founder,iconmeals.com,High,Active,Local; DFW + retail; ships,todd@iconmeals.com,verified
+TX,Kravee Meal Prep,Houston,Tia Robinson,Owner/Founder,kraveemealprep.com,High,Active,Local; keto/weightloss/vegan; founded 2018,,
+TX,Macros Meal Prep,Houston,Keith Broussard,Owner,macrosmp.com,High,Active,Local; gourmet fat-loss meals,,
+TX,Map Meals,Frisco,Derek Derbigny Jr. & Tre Childs,Co-Founders,mapmeals.com,High,Active,Local; DFW,,
+TX,Meals by Megan May,Abilene,Megan May,Owner & Founder,meganmay.fit,High,Active,Local; organic/GF; serves FW metro,,
+TX,Muscle Junkies Meal Prep,Dallas,Unverified,,musclejunkiesmealprep.com,Med,Active,Local; family-owned DFW,,
+TX,My Fit Foods,Houston,Mario Mendias,Founder / Owner,myfitfoods.com,Med,Active,Relaunched 2019,,unavailable
+TX,MyPrepKitchen DFW,Dallas,Unverified,Owner,myprepkitchendfw.com,Med,Active,Local; macro meals across DFW,,
+TX,Personal Trainer Food,Fort Worth,Mike Starks,Founder & CEO,personaltrainerfood.com,High,Active,Weight-loss frozen meals; founded 2011,mike@starks.group,verified
+TX,Phit Phuel Gourmet Meal Preps,El Paso,Alexander Levario,Founder/Owner,phitphuel.com,High,Active,Local; founded 2015; 4 El Paso locations,,
+TX,Prep It Up!,Lubbock,Kimberly Roberson,Owner/Founder,prepituplubbock.com,High,Active,Local; Lubbock & Wolfforth,,
+TX,Prep To Your Door,Austin,Heather Emerson,Founder,preptoyourdoor.com,High,Active,Local; zero-waste plant-based; Austin + Houston,,
+TX,ProKitchen by Profitness,Lubbock,Unverified,,profitnesslubbock.com,Med,Active,Local; meal prep + food truck,,
+TX,ProMeals,Houston,Unverified,,mypromeals.com,Med,Active,Local; high-protein/keto across TX metros,,
+TX,Punch Drunk Chef,Dallas,Brad Miller,Founder/Owner/Chef,pdcmealprep.com,High,Active,Local; since 2018,,
+TX,Snap Kitchen,Austin,Mitchell Raisch,CEO,snapkitchen.com,High,Active,Acquired by Goodfood Market 2023,mitchell_raisch@snapkitchen.com,verified
+TX,The Macro Lab Meal Prep,El Paso,Unverified,,themacrolabelpaso.com,Low,Active,Local; El Paso macro meal prep,,
+TX,The Meal Proz,Austin,Nicholas Noel,Founder/Owner,themealproz.com,High,Active,Local; macro-friendly Central TX,,
+TX,Vital Kitchen,Cypress,Veronica Rademacher & Jordan Asher,Co-Owners/Chefs,vitalkitchenco.com,High,Active,Local; chef-driven; founded 2016,,
+TX,Zedric's,San Antonio,Zach Lutton,Founder/Chef-Owner,zedrics.com,High,Active,Local; since 2010,zach@zedrics.com,verified
+TX,À La Carte Nutrition,Sugar Land,Lisa Bub,Owner & Culinary Director,alacartenutrition.com,High,Active,Local; woman-owned; founded 2018,,
+UT,Beehive Meals,Layton,Allyse Jackson,Founder & CEO,beehivemeals.com,High,Active,Slow-cooker freezer meals; UT/ID/AZ,allyse@beehivemeals.com,verified
 UT,Kinetik Meals,Salt Lake City,Unverified,,kinetikmeals.com,Med,Active,Local; fitness-focused,,
+UT,Meals That Transform,Salt Lake City,Unverified,,mealsthattransform.com,Low,Active,Local; prepaid blocks,,
+UT,NUR Kitchen,Salt Lake City,Carlos (surname unverified),Owner/Founder,nurkitchenslc.com,Med,Active,Local; since 2020,,
 UT,Pete's Meals,Salt Lake City,Unverified,,petesmeals.com,Med,Active,Local,,
-VA,Lyfestyle Meals,Virginia Beach,Colin Smith,Owner,lyfemeals.com,High,Active,Local; Hampton Roads,csmith@lyfemeals.com,verified
+UT,Ultimate Food Essentials,Salt Lake City,Giovanni Bouderbala,Owner,ultimatefoodessentials.com,Med,Active,Local; SLC,,
+UT,Wasatch Fresh,Salt Lake City,Unverified,,wasatchfresh.com,Low,Active,Local; chilled reheatable meals,,
+VA,3 Peat Eats,Newport News,Unverified,Owner,3peateats.com,Low,Active,Local; Hampton Roads delivery,,
 VA,Catherine's Catering,Virginia Beach,Catherine Gettier,Owner/Chef,catherinescatering.com,High,Active,Local; est 1998,,
+VA,Diet-to-Go,Lorton,Hilton Davis,Founder,diettogo.com,Low,Defunct,Chapter 11 2024; reportedly closed Nov 2025,,
+VA,Everyday Gourmet RVA,Richmond,Unverified,,egourmetrva.com,Low,Active,Local; Richmond prepared-meal delivery,,
 VA,Lean Chef Meal Prep,Richmond,Unverified,Owner,leanchefmealprep.com,Med,Active,Local,,
+VA,Lyfestyle Meals,Virginia Beach,Colin Smith,Owner,lyfemeals.com,High,Active,Local; Hampton Roads,csmith@lyfemeals.com,verified
+VA,Meal Dealers,Arlington,Unverified,,mealdealers.com,Low,Active,Local; VA/MD/DC RTE,,
+VA,Meals By Chef Swole,Manassas,Thomas Dillon,Founder,mealsbychefswole.com,High,Active,Local; NoVA & DC; organic,,
+VA,MightyMeals,Gainesville,Stefano Marzano,CEO & Executive Chef,eatmightymeals.com,High,Active,Founded 2015; ~27 states,stefano@eatmightymeals.com,verified
+VA,MixingMama,Virginia Beach,Unverified,Founder/Chef,mixingmama.com,Med,Active,Local; Hampton Roads,,
+VA,Supper Made Simple,Richmond,Unverified,Owner,suppermadesimple.net,Med,Active,Local; home-style dinner delivery,,
+VA,Territory Foods,Arlington,Ellis Singer McCue,CEO,territoryfoods.com,High,Active,Chef-made dietitian-designed; CEO since 2019,,unavailable
 VA,Wholey Meal Prep,Arlington,Unverified,Owner,wholeymealprep.com,Med,Active,Local; minority woman-owned,,
-VT,Richmond Community Kitchen,Richmond,Amy Gifford & Susan Whitman,Co-Founders,richmondcommunitykitchen.com,High,Active,Local; Chittenden County,amy@richmondcommunitykitchen.com,verified
 VT,Emily's Home Cooking,Winooski,Emily Eden,Owner/Chef,emilyshomecooking.com,High,Active,Local; since 2013,,
 VT,Fiddleheads Cuisine,Moretown,Lisa Mason,Owner/Chef,fiddleheadscuisine.com,High,Active,Local; est 2010,,
+VT,Richmond Community Kitchen,Richmond,Amy Gifford & Susan Whitman,Co-Founders,richmondcommunitykitchen.com,High,Active,Local; Chittenden County,amy@richmondcommunitykitchen.com,verified
 VT,Veggies & Hustle,Burlington,Hannah Baird,Owner/Chef,veggiesandhustle.com,High,Active,Local; since 2020,,unavailable
 WA,Dinners Ready,Mukilteo,Brad Vorhees & Scott Farrar,Founders,,Med,Active,Local; founded 2003,,
-WA,Whisk Meals,Seattle,Unverified,,whiskmeals.us,Med,Active,Local; organic GF/DF,,
+WA,Down to Earth Cuisine,Seattle,David Boyd,Chef/Owner,downtoearthcuisine.com,High,Active,Local; organic weekly delivery,,
+WA,Dream Dinners,Snohomish,Stephanie Allen & Tina Kuna,Co-Founders,dreamdinners.com,High,Active,Local; meal-assembly franchise; founded 2002,,
 WA,Fuller Nutrifuel,Seattle,Unverified,,fullernutrifuel.com,Med,Active,Local,,
+WA,Kairos Meal Prep,Spokane,Unverified,Owner,kairosmealpreps.com,Med,Active,Local; Spokane since 2020,,
+WA,Maven Meals,SeaTac,Heidi Finley,Founder/Chef,mavenmeals.com,High,Active,Local; from-scratch; no subscription,,
+WA,Pantry Fuel,Spokane,Jennifer Van Cott,Founder/Owner,pantryfuel.com,High,Active,Local; founded 2015; local-farm sourced,,
+WA,Westerly Kitchen,Seattle,Matt Hunt,Co-Founder / Exec Chef,westerlykitchen.com,High,Active,Family-owned; founded 2018,matt@westerlykitchen.com,verified
+WA,Whisk Meals,Seattle,Unverified,,whiskmeals.us,Med,Active,Local; organic GF/DF,,
+WI,Delish Delivered,Mequon,Kathy Burghardt,CEO & Founder,delishdelivered.net,High,Active,Local; Metro Milwaukee; franchising,,
 WI,Freshchef Meal Prep,Milwaukee,Austin Vetter,Founder/Owner,freshchefmke.com,High,Active,Local; Milwaukee & Madison,,unavailable
-WI,Mealwaukee,Pewaukee,Kate Peterson,Owner (RD),mealwaukeemeals.com,High,Active,Local; Lake Country,,unavailable
 WI,Meals Prepped by Amy,Green Bay,Amy Gajeski,Owner/Founder,mealspreppedbyamy.com,High,Active,Local,,
+WI,Mealwaukee,Pewaukee,Kate Peterson,Owner (RD),mealwaukeemeals.com,High,Active,Local; Lake Country,,unavailable
+WI,Plant Joy,Milwaukee,Amberlea Childs,Founder,plantjoy.net,High,Active,Local; vegan meal prep + deli,,
+WI,The Real Good Life,Wauwatosa,Maggie Skarich Joos,Founder / Owner,therealgoodlife.com,High,Active,Milwaukee metro; founded 2016,,unavailable
 WI,Two Chefs Tosa,Wauwatosa,John Raymond & Carla Raymond-Haas,Chefs/Owners,twochefstosa.com,Med,Active,Local,,
-WV,Hungry Horns Meal Prep,Teays Valley,John & Rachel Horn,Owners,hungryhorns.com,High,Active,Local; ~3000 meals/wk,,
-WV,Dish'd Design Co.,Clarksburg,Avery Williams,Founder/Owner,dishddesignco.com,High,Active,Local; founded 2024,,
 WV,Butter It Up,Huntington,Drew Hines,Owner,butteritup.com,High,Active,Local; farm-to-table cafe + prep,,unavailable
+WV,Dish'd Design Co.,Clarksburg,Avery Williams,Founder/Owner,dishddesignco.com,High,Active,Local; founded 2024,,
+WV,Hungry Horns Meal Prep,Teays Valley,John & Rachel Horn,Owners,hungryhorns.com,High,Active,Local; ~3000 meals/wk,,
 WV,Project LeanNation Morgantown,Morgantown,Alissa & Matt Higgins,Franchise Owners,projectleannation.com,Med,Active,Local; franchise,,unavailable
+WY,Avant Delivery,Jackson,Sam Schwartz,Founder/CEO,avantdelivery.co,Med,Active,Local; HQ ambiguous (also SLC),,
 WY,Heritage Foods,Laramie,John Pope,Founder,myheritagefoods.com,High,Active,Local; Laramie/Cheyenne + N. CO,,
 WY,Kitchen Social,Casper,Karla Case,Owner/Founder,casperkitchensocial.com,High,Active,Local; founded 2019,,unavailable
-WY,Avant Delivery,Jackson,Sam Schwartz,Founder/CEO,avantdelivery.co,Med,Active,Local; HQ ambiguous (also SLC),,
 WY,Unprocessed Kitchen,Jackson,Alicia Brieger,Owner/Chef,unprocessedkitchen.com,Med,Active,Local; also Maui,,unavailable
-NY,Freshly,New York,Michael Wystrach,Founder,,High,Defunct,Acquired by Nestlé 2020; shut Jan 2023,,
-VA,Diet-to-Go,Lorton,Hilton Davis,Founder,diettogo.com,Low,Defunct,Chapter 11 2024; reportedly closed Nov 2025,,
-NY,RealEats,Geneva,Dan Wise,Founder & CEO,realeats.com,High,Defunct,Shut down ~March 2023,,
-TX,Diet Gourmet,Dallas,Donna Leonard,President,dietgourmet.com,Low,Defunct,Appears inactive,,
-FL,Healthy Chef Creations,Winter Park,Unverified,,healthychefcreations.com,Med,Uncertain,Founder sold ~2013; likely closed,,
-MA,Just Add Cooking,Somerville,Jan Leife,Founder & CEO,,High,Defunct,Ceased Nov 2018,,
-LA,Dinner Lab,New Orleans,Brian Bordainick,Founder & CEO,,High,Defunct,Suspended April 2016,,
-CA,Chef'd,El Segundo,Kyle Ransford,Founder & CEO,,High,Defunct,DTC shut July 2018,,
-NY,Plated,New York,Josh Hix & Nick Taranto,Founders,,High,Defunct,Acquired by Albertsons 2017; shut Nov 2019,,
-CA,Munchery,San Francisco,James Beriker,CEO,,High,Defunct,Shut down Jan 2019,,
-CA,Sprig,San Francisco,Gagan Biyani,Co-Founder & CEO,,High,Defunct,Shut down May 2017,,
-NY,Maple,New York,Caleb Merkl,Co-Founder & CEO,,High,Defunct,Ceased May 2017,,
